@@ -1,0 +1,40 @@
+[
+  {
+    "Coursecode": "CS105",
+    "Choices": [
+      {
+        "Index": "10101",
+        "Timetable": [
+          ["Lecture", "L1", "Mon", "0900to1000", "Room A", "Teaching Wk1"],
+          ["Tutorial", "T1", "Wed", "1100to1200", "Room B", "Teaching Wk2-13"]
+        ]
+      },
+      {
+        "Index": "10102",
+        "Timetable": [
+          ["Lecture", "L1", "Mon", "0900to1000", "Room A", "Teaching Wk1-13"],
+          ["Tutorial", "T2", "Thu", "1400to1500", "Room C", "Teaching Wk2-13"]
+        ]
+      }
+    ]
+  },
+  {
+    "Coursecode": "MA201",
+    "Choices": [
+      {
+        "Index": "20201",
+        "Timetable": [
+          ["Lecture", "L2", "Wed", "1100to1200", "Room D", "Teaching Wk1"],
+          ["Lab", "LB1", "Fri", "1300to1500", "Lab 1", "Teaching Wk2-13"]
+        ]
+      },
+      {
+        "Index": "20202",
+        "Timetable": [
+          ["Lecture", "L2", "Wed", "1100to1200", "Room D", "Teaching Wk1-13"],
+          ["Lab", "LB2", "Fri", "1500to1700", "Lab 2", "Teaching Wk2-13"]
+        ]
+      }
+    ]
+  }
+]
