@@ -38,7 +38,7 @@ def get_cell_content(schedule, day, start, end):
     # Search for a course that has a session in this time slot
     for course, details in schedule.items():
         for session in details['Sessions']:
-            if session['Day'] == day and session['start'] == start and session['end'] == end:
+            if session['Day'] == day and session['start'] == start:
                 return f"{course} {session['Type']} {session['Group']} {session['Weeks']}"
     return ""  # Return empty string if no session is found for this slot
 
