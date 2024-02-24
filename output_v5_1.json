@@ -1,0 +1,178 @@
+[
+    {
+        "Coursecode": "IE3017",
+        "Choices": [
+            {
+                "Index": "32439",
+                "Timetable": [
+                    {
+                        "Type": "Tut",
+                        "Group": "EE05",
+                        "Day": "Thu",
+                        "start": 1330,
+                        "end": 1450,
+                        "Venue": "ONLINE",
+                        "Weeks": "5-undefined,5"
+                    },
+                    {
+                        "Type": "Tut",
+                        "Group": "EE05",
+                        "Day": "Thu",
+                        "start": 1330,
+                        "end": 1450,
+                        "Venue": "TR+95",
+                        "Weeks": "1-undefined,1-4,6-13"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Coursecode": "IE2110",
+        "Choices": [
+            {
+                "Index": " 32432",
+                "Timetable": [
+                    {
+                        "Type": "Tut",
+                        "Group": "EE15",
+                        "Day": "Thu",
+                        "start": 1130,
+                        "end": 1250,
+                        "Venue": "ONLINE",
+                        "Weeks": "5-undefined,5"
+                    },
+                    {
+                        "Type": "Tut",
+                        "Group": "EE15",
+                        "Day": "Thu",
+                        "start": 1130,
+                        "end": 1250,
+                        "Venue": "TR+68",
+                        "Weeks": "1-undefined,1-4,6-13"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Coursecode": "IE2107",
+        "Choices": [
+            {
+                "Index": "32138",
+                "Timetable": [
+                    {
+                        "Type": "Lec/Studio",
+                        "Group": "EELE",
+                        "Day": "Mon",
+                        "start": 930,
+                        "end": 1050,
+                        "Venue": "ONLINE",
+                        "Weeks": "5-undefined,5"
+                    },
+                    {
+                        "Type": "Lec/Studio",
+                        "Group": "EELE",
+                        "Day": "Mon",
+                        "start": 930,
+                        "end": 1050,
+                        "Venue": "LKC-LT",
+                        "Weeks": "1-undefined,1-4,6-13"
+                    },
+                    {
+                        "Type": "Tut",
+                        "Group": "EE01",
+                        "Day": "Mon",
+                        "start": 1130,
+                        "end": 1250,
+                        "Venue": "TR+63",
+                        "Weeks": "1-undefined,1-4,6-13"
+                    },
+                    {
+                        "Type": "Tut",
+                        "Group": "EE01",
+                        "Day": "Mon",
+                        "start": 1130,
+                        "end": 1250,
+                        "Venue": "ONLINE",
+                        "Weeks": "5-undefined,5"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Coursecode": "IE2108",
+        "Choices": [
+            {
+                "Index": "32159",
+                "Timetable": [
+                    {
+                        "Type": "Lec/Studio",
+                        "Group": "EELE",
+                        "Day": "Mon",
+                        "start": 1630,
+                        "end": 1750,
+                        "Venue": "ONLINE",
+                        "Weeks": "5-undefined,5"
+                    },
+                    {
+                        "Type": "Lec/Studio",
+                        "Group": "EELE",
+                        "Day": "Mon",
+                        "start": 1630,
+                        "end": 1750,
+                        "Venue": "LKC-LT",
+                        "Weeks": "1-undefined,1-4,6-13"
+                    },
+                    {
+                        "Type": "Tut",
+                        "Group": "EE04",
+                        "Day": "Mon",
+                        "start": 1430,
+                        "end": 1550,
+                        "Venue": "TR+90",
+                        "Weeks": "1-undefined,1-4,6-13"
+                    },
+                    {
+                        "Type": "Tut",
+                        "Group": "EE04",
+                        "Day": "Mon",
+                        "start": 1430,
+                        "end": 1550,
+                        "Venue": "ONLINE",
+                        "Weeks": "5-undefined,5"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Coursecode": "EE2073",
+        "Choices": [
+            {
+                "Index": "32118",
+                "Timetable": [
+                    {
+                        "Type": "Lec/Studio",
+                        "Group": "EELE",
+                        "Day": "Fri",
+                        "start": 930,
+                        "end": 1220,
+                        "Venue": "LT23",
+                        "Weeks": "1-undefined,1-2"
+                    },
+                    {
+                        "Type": "Prj",
+                        "Group": "EJ10",
+                        "Day": "Wed",
+                        "start": 1330,
+                        "end": 1620,
+                        "Venue": "S2-B4C-15",
+                        "Weeks": "3-undefined,3-11,13"
+                    }
+                ]
+            }
+        ]
+    }
+]

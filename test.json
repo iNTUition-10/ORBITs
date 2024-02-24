@@ -60,7 +60,7 @@
         "Choices": [
           {
             "Index": "32138",
-            "Timetable": [
+            "Timetable": [    
               ["Lec/Studio", "EELE", "Mon", "0930to1050", "ONLINE", "Teaching Wk5"],
               ["Lec/Studio", "EELE", "Mon", "0930to1050", "LKC-LT", "Teaching Wk1-4,6-13"],
               ["Tut", "EE01", "Mon", "1130to1250", "TR+63", "Teaching Wk1-4,6-13 "],
