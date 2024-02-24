@@ -1,3 +1,40 @@
+/*
+ * 别删！！！
+ *                        _oo0oo_
+ *                       o8888888o
+ *                       88" . "88
+ *                       (| -_- |)
+ *                       0\  =  /0
+ *                     ___/`---'\___
+ *                   .' \\|     |// '.
+ *                  / \\|||  :  |||// \
+ *                 / _||||| -:- |||||- \
+ *                |   | \\\  - /// |   |
+ *                | \_|  ''\---/''  |_/ |
+ *                \  .-\__  '-'  ___/-. /
+ *              ___'. .'  /--.--\  `. .'___
+ *           ."" '<  `.___\_<|>_/___.' >' "".
+ *          | | :  `- \`.;`\ _ /`;.`/ - ` : | |
+ *          \  \ `_.   \_ __\ /__ _/   .-` /  /
+ *      =====`-.____`.___ \_____/___.-`___.-'=====
+ *                        `=---='
+ * 
+ * 
+ *      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 
+ *            佛祖保佑       永不宕机     永无BUG
+ * 
+ *        佛曰:  
+ *                写字楼里写字间，写字间里程序员；  
+ *                程序人员写程序，又拿程序换酒钱。  
+ *                酒醒只在网上坐，酒醉还来网下眠；  
+ *                酒醉酒醒日复日，网上网下年复年。  
+ *                但愿老死电脑间，不愿鞠躬老板前；  
+ *                奔驰宝马贵者趣，公交自行程序员。  
+ *                别人笑我忒疯癫，我笑自己命太贱；  
+ *                不见满街漂亮妹，哪个归得程序员？
+ */
+
 // 扩展程序的 Service Worker 在后台监控浏览器事件。
 // Service Worker 是特殊的 JavaScript 环境，用于处理事件，并会在不需要时终止。
 
@@ -37,7 +74,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if(request.action == "FETCH_COURSES") {
         console.log("background.js received FETCH_COURSE request", request)
         const { acad, semester, p1, p2, FullPart, matric } = request.form
-        const { courses, cookies } = request
+        const { courses, cookies, tabId } = request
         requests = []
         for(var i=0; i<request.courses.length;i++){
             console.log("Dealing with ", courses[i])
@@ -67,17 +104,29 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         console.log(requests)
         Promise.all(requests).then(responses => {
             console.log("All requests completed")
-            responses = responses.map((response) => response.text())
             console.log(responses)
-            courses = []
-            for(var i = 0;i<responses.length;i++){
-                res = responses[i]
-                res = DOMParser.parseFromString(res, 'text/html')
-                code = res.querySelector('[title="Add to Course Codes list"]').parentNode.href.split("'")[1]
-                if(res.includes("for course is not available.")){
-
-                }
+            r = []
+            for(var i=0;i<responses.length;i++){
+                r.push(responses[i].text())
             }
+            Promise.all(r).then(responses => {
+                console.log("text()")
+                console.log(responses)
+                p_courses = Object()
+                parsers = []
+                for(var i=0;i<responses.length;i++){
+                    parsers.push(chrome.tabs.sendMessage(tabId, {action: "PARSE", html: responses[i]}))
+                }
+                Promise.all(parsers).then(data => {
+                    console.log("background.js received PARSER response", )
+                    console.log(data)
+                    for(var i = 0;i<data.length;i++){    
+                        p_courses[data[i].code] = data[i].index
+                    }
+                    console.log("All course index extracted, ", p_courses)
+                    console.log(p_courses)
+                })
+            })
         })
     }
 })

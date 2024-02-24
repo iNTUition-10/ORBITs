@@ -13,7 +13,8 @@ document.getElementById('add').addEventListener('click', function() {
                 courses = courses.data
                 console.log(courses)
                 console.log("Using form and courses to fetch course schedules...", form, courses)
-                chrome.runtime.sendMessage({action: "FETCH_COURSES", form, cookies, courses}, (response) => {
+                tabId = tabs[0].id
+                chrome.runtime.sendMessage({action: "FETCH_COURSES", form, cookies, courses, tabId}, (response) => {
                     console.log("popup.js FETCH_COURSES received response")
                     console.log(response)
                 })

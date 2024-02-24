@@ -40,5 +40,40 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
         }
         console.log(data)
         sendResponse({data: data})
-    }
+    }else if(request.action == "PARSE") {
+        console.log("fetch_planner.js received request, parsing html")
+        res = new DOMParser().parseFromString(request.html, "text/html")
+        console.log("fetch_planner.js parsed html, ", res)
+        code = res.querySelector('[title="Add to Course Codes list"]').parentNode.href.split("'")[1]
+        if(request.html.includes("for course is not available.")){
+            console.log("Course not available ", code)
+            sendResponse({code, index: []})
+        }else{
+            res = res.getElementsByTagName('tbody')[1]
+            result = Object()
+            index = ""
+            in_index = []
+            for(var i=1; i<res.childElementCount; i++){
+                cur = []
+                line = res.children[i]
+                if(line.children[0].children[0].innerHTML != "&nbsp;"){
+                    if(index != ""){
+                        result[index] = in_index
+                        cur = []
+                        in_index = []
+                    }
+                    index = line.children[0].children[0].innerHTML.replace("&nbsp;","")
+                }
+                cur.push(line.children[1].children[0].innerHTML)
+                cur.push(line.children[2].children[0].innerHTML)
+                cur.push(line.children[3].children[0].innerHTML)
+                cur.push(line.children[4].children[0].innerHTML)
+                cur.push(line.children[5].children[0].innerHTML)
+                cur.push(line.children[6].children[0].innerHTML.replace("&nbsp;",""))
+                in_index.push(cur)
+            }
+            result[index] = cur
+            console.log("fetch_planner.js parsed html, sending back to plugin. result: ", result)
+            sendResponse({code, index: result})
+    }}
 })
