@@ -2,7 +2,8 @@
 // Service Worker 是特殊的 JavaScript 环境，用于处理事件，并会在不需要时终止。
 
 // 仅监听STARS网站
-const stars_url = 'https://wish.wis.ntu.edu.sg/pls/webexe/AUS_STARS_PLANNER.planner' 
+const stars_url = 'https://wish.wis.ntu.edu.sg/pls/webexe/AUS_STARS_PLANNER.planner'
+const info_url = 'https://wish.wis.ntu.edu.sg/pls/webexe/AUS_STARS_PLANNER.course_info'
 
 
 // onClicked: 点击操作图标时触发。如果操作具有弹出式窗口，则不会触发此事件。
@@ -28,6 +29,47 @@ chrome.action.onClicked.addListener(async (tab) => {
                 target: { tabId: tab.id },
             });
         }
+    }
+})
+
+// 此函数用于获取课程时间信息，后台请求防止出现CORS跨域问题
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+    if(request.action == "FETCH_COURSES") {
+        console.log("background.js received FETCH_COURSE request", request)
+        const { acad, semester, p1, p2, FullPart, matric } = request.form
+        const { courses, cookies } = request
+        requests = []
+        for(var i=0; i<request.courses.length;i++){
+            console.log("Dealing with ", courses[i])
+            var details = {
+                acad,
+                semester,
+                p1,
+                p2,
+                FullPart,
+                matric,
+                r_subj_code: courses[i].hash,
+            }
+            var formBody = [];
+            for (var property in details) {
+              var encodedKey = encodeURIComponent(property);
+              var encodedValue = encodeURIComponent(details[property]);
+              formBody.push(encodedKey + "=" + encodedValue);
+            }
+            formBody = formBody.join("&");
+            requests.push(fetch(info_url, {method: 'POST', body: formBody, headers: {
+                'Accept': "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'Cookie': cookies,
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            }}))
+        }
+        console.log(requests)
+        Promise.all(requests).then(responses => {
+            console.log("All requests completed")
+            responses = responses.map((response) => response.text())
+            console.log(responses)
+        })
     }
 })
 

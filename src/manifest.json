@@ -13,11 +13,12 @@
     "permissions": [
         "activeTab",
         "scripting",
-        "storage"
+        "storage",
+        "cookies",
+        "webRequest"
     ],
     "host_permissions": [
-        "https://wish.wis.ntu.edu.sg/webexe/AUS_STARS_PLANNER.planner*",
-        "https://wish.wis.ntu.edu.sg/pls/webexe/AUS_STARS_PLANNER.course_info*"
+        "https://wish.wis.ntu.edu.sg/*"
     ],
     "commands": {
         "_execute_action": {

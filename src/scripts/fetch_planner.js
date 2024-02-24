@@ -26,6 +26,19 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
             }
         }
         console.log("parsed form[0], sending back to plugin. data: ", data)
-        sendResponse({data});
+        cookies = document.cookie // 获取当前标签页cookies用于请求
+        sendResponse({data, cookies});
+    }else if(request.action == "GET_COURSES") { // 获取所有添加到STARS列表中的课程
+        c = document.querySelectorAll('[title="Click link for more details"]')
+        console.log("Getting all selected courses...", c)
+        data = []
+        for (var i=0; i<c.length; i++) {
+            code = c[i].firstChild.innerHTML //"AB1201"
+            hash = c[i].parentNode.href //"javascript:view_subject(document.forms[0],'7C1FA564DAA130C9');" 
+            hash = hash.split("'")[1] //"7C1FA564DAA130C9"
+            data.push({code, hash})
+        }
+        console.log(data)
+        sendResponse({data: data})
     }
 })
