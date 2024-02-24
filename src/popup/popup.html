@@ -1,31 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Orbit Popup</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Class Schedule Preferences</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, world!</h1>
 
-    <label for="weekday">Days You Don't Want to Attend Class: </label>
-    <select id="weekday">
-        <option value="Monday">Monday</option>
-        <option value="Tuesday">Tuesday</option>
-        <option value="Wednesday">Wednesday</option>
-        <option value="Thursday">Thursday</option>
-        <option value="Friday">Friday</option>
-        <option value="Saturday">Saturday</option>
-        <option value="Sunday">Sunday</option>
-    </select>
+<h2>Class Schedule Preferences</h2>
 
-    <label for="startTime">startTime:</label>
-    <input type="time" id="startTime" />
+<form action="/submit-your-data-url" method="post">
+    <fieldset>
+        <legend>Unavailable Times</legend>
 
-    <label for="endTime">endTime:</label>
-    <input type="time" id="endTime" />
+        <label for="weekday">Days You Don't Want to Attend Class:</label>
+        <select id="weekday" name="weekday[]" multiple>
+            <option value="monday">Monday</option>
+            <option value="tuesday">Tuesday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="thursday">Thursday</option>
+            <option value="friday">Friday</option>
+            <option value="saturday">Saturday</option>
+            <option value="sunday">Sunday</option>
+        </select>
+        <br>
 
-    <input type="text" id="input" />
-    <button id="add">Add Course</button>
-    <div id="response"></div>
-    <script src="popup.js"></script>
+        <label for="start-time">Start Time:</label>
+        <select id="start-time" name="start-time">
+            <option value="0800">08:00</option>
+            <option value="0830">08:30</option>
+            <option value="0930">09:30</option>
+            <option value="1030">10:30</option>
+            <option value="1130">11:30</option>
+            <option value="1230">12:30</option>
+            <option value="1330">13:30</option>
+            <option value="1430">14:30</option>
+            <option value="1530">15:30</option>
+            <option value="1630">16:30</option>
+            <option value="1730">17:30</option>
+            <option value="1830">18:30</option>
+            <option value="1930">19:30</option>
+            <option value="2030">20:30</option>
+            <option value="2130">21:30</option>
+            <option value="2230">22:30</option>
+        </select>
+        <br>
+
+        <label for="end-time">End Time:</label>
+        <select id="end-time" name="end-time">
+            <option value="0830">08:30</option>
+            <option value="0930">09:30</option>
+            <option value="1030">10:30</option>
+            <option value="1130">11:30</option>
+            <option value="1230">12:30</option>
+            <option value="1330">13:30</option>
+            <option value="1430">14:30</option>
+            <option value="1530">15:30</option>
+            <option value="1630">16:30</option>
+            <option value="1730">17:30</option>
+            <option value="1830">18:30</option>
+            <option value="1930">19:30</option>
+            <option value="2030">20:30</option>
+            <option value="2130">21:30</option>
+            <option value="2230">22:30</option>
+            <option value="2230">23:30</option>
+        </select>
+        <br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Add Course</legend>
+
+        <label for="course-name">Course Name:</label>
+        <input type="text" id="course-name" name="course-name">
+        <br>
+    </fieldset>
+
+    <input type="submit" value="Submit">
+</form>
+
 </body>
 </html>
