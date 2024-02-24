@@ -1,0 +1,150 @@
+[
+    {
+      "Coursecode": "IE3017",
+      "Choices": [
+        {
+          "Index": "32252",
+          "Timetable": [
+            ["Tut", "EE01", "Mon", "1130to1250", "ONLINE", "Teaching Wk5"],
+            ["Tut", "EE01", "Mon", "1130to1250", "TR+95", "Teaching Wk1-4,6-13"]
+          ]
+        },
+        {
+          "Index": "32439",
+          "Timetable": [
+            ["Tut", "EE05", "Thu", "1330to1450", "ONLINE", "Teaching Wk5"],
+            ["Tut", "EE05", "Thu", "1330to1450", "TR+95", "Teaching Wk1-4,6-13"]
+          ]
+        },
+        {
+          "Index": "32255",
+          "Timetable": [
+            ["Tut", "EE04", "Thu", "1030to1150", "ONLINE", "Teaching Wk5"],
+            ["Tut", "EE04", "Thu", "1030to1150", "TR+92", "Teaching Wk1-4,6-13"]
+          ]
+        }
+      ]
+    },
+
+    {
+      "Coursecode": "IE2110",
+      "Choices": [
+          {
+            "Index": " 32432",
+            "Timetable": [
+              ["Tut", "EE15", "Thu", "1130to1250", "ONLINE", "Teaching Wk5"],
+              ["Tut", "EE15", "Thu", "1130to1250", "TR+68", " Teaching Wk1-4,6-13"]
+            ]
+          },
+    
+          {
+            "Index": " 32430",
+            "Timetable": [
+                ["Tut", "EE13", "Thu", "0930to1050", "ONLINE", "Teaching Wk5"],
+                ["Tut", "EE13", "Thu", "0930to1050", "TR+68", " Teaching Wk1-4,6-13"]
+            ]
+          },
+          {
+            "Index": " 32169",
+            "Timetable": [
+              ["Tut", "EE02", "Mon", "1130to1250", "ONLINE", "Teaching Wk5"],
+              ["Tut", "EE02", "Mon", "1130to1250", "TR+67", " Teaching Wk1-4,6-13"]
+            ]
+          }
+        
+        ]
+      },
+
+      {
+        "Coursecode": "IE2107",
+        "Choices": [
+          {
+            "Index": "32138",
+            "Timetable": [
+              ["Lec/Studio", "EELE", "Mon", "0930to1050", "ONLINE", "Teaching Wk5"],
+              ["Lec/Studio", "EELE", "Mon", "0930to1050", "LKC-LT", "Teaching Wk1-4,6-13"],
+              ["Tut", "EE01", "Mon", "1130to1250", "TR+63", "Teaching Wk1-4,6-13 "],
+              ["Tut", "EE01", "Mon", "1130to1250", "ONLINE", "Teaching Wk5"]
+            ]
+          },
+          {
+            "Index": "32143",
+            "Timetable": [
+              ["Lec/Studio", "EELE", "Mon", "0930to1050", "ONLINE", "Teaching Wk5"],
+              ["Lec/Studio", "EELE", "Mon", "0930to1050", "LKC-LT", "Teaching Wk1-4,6-13"],
+              ["Tut", "EE06", "Tue", "1430to1550", "TR+69", "Teaching Wk1-4,6-13 "],
+              ["Tut", "EE06", "Tue", "1430to1550", "ONLINE", "Teaching Wk5"]
+            ]
+          },
+          {
+            "Index": " 32141",
+            "Timetable": [
+              ["Lec/Studio", "EELE", "Mon", "0930to1050", "ONLINE", "Teaching Wk5"],
+              ["Lec/Studio", "EELE", "Mon", "0930to1050", "LKC-LT", "Teaching Wk1-4,6-13"],
+              ["Tut", "EE04", "Tue", "1130to1250", "TR+64", "Teaching Wk1-4,6-13 "],
+              ["Tut", "EE04", "Tue", "1130to1250", "ONLINE", "Teaching Wk5"]
+            ]
+          }
+        ]
+      },
+
+      {
+        "Coursecode": "IE2108",
+        "Choices": [
+          {
+            "Index": "32160",
+            "Timetable": [
+              ["Lec/Studio", "EELE", "Mon", "1630to1750", "ONLINE", "Teaching Wk5"],
+              ["Lec/Studio", "EELE", "Mon", "1630to1750", "LKC-LT", "Teaching Wk1-4,6-13"],
+              ["Tut", "EE05", "Tue", "0930to1050", "TR+67", "Teaching Wk1-4,6-13 "],
+              ["Tut", "EE05", "Tue", "0930to1050", "ONLINE", "Teaching Wk5"]
+            ]
+          },
+          {
+            "Index": "32400",
+            "Timetable": [
+                ["Lec/Studio", "EELE", "Mon", "1630to1750", "ONLINE", "Teaching Wk5"],
+                ["Lec/Studio", "EELE", "Mon", "1630to1750", "LKC-LT", "Teaching Wk1-4,6-13"],
+                ["Tut", "EE11", "Wed", "1030to1150", "TR+90", "Teaching Wk1-4,6-13 "],
+                ["Tut", "EE11", "Wed", "1030to1150", "ONLINE", "Teaching Wk5"]
+            ]
+          }, 
+          {
+            "Index": "32159",
+            "Timetable": [
+                ["Lec/Studio", "EELE", "Mon", "1630to1750", "ONLINE", "Teaching Wk5"],
+                ["Lec/Studio", "EELE", "Mon", "1630to1750", "LKC-LT", "Teaching Wk1-4,6-13"],
+                ["Tut", "EE04", "Mon", "1430to1550", "TR+90", "Teaching Wk1-4,6-13 "],
+                ["Tut", "EE04", "Mon", "1430to1550  ", "ONLINE", "Teaching Wk5"]
+            ]
+          } 
+        ]
+      },
+
+      {
+        "Coursecode": "EE2073",
+        "Choices": [
+          {
+            "Index": "32120",
+            "Timetable": [
+                ["Lec/Studio", "EELE", "Fri", "0930to1220", "LT23", " Teaching Wk1,2"],
+                ["Prj", "EJ12", "Thu", "0930to1220", "S2-B4C-15", "Teaching Wk3-12"]
+            ]
+          },
+          {
+            "Index": "32118",   
+            "Timetable": [
+                ["Lec/Studio", "EELE", "Fri", "0930to1220", "LT23", " Teaching Wk1,2"],
+                ["Prj", "EJ10", "Wed", "1330to1620", "S2-B4C-15", " Teaching Wk3-11,13"]
+            ]
+          },
+          {
+            "Index": "32114",   
+            "Timetable": [
+                ["Lec/Studio", "EELE", "Fri", "0930to1220", "LT23", " Teaching Wk1,2"],
+                ["Prj", "EJ06", "Tue", "1330to1620", "S2-B4C-15", "Teaching Wk3-12"]
+            ]
+          }
+        ]
+      }
+  ]
