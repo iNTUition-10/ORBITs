@@ -7,10 +7,56 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="app">
+        <div class="page" id="block">
+            <h1>Please enable this plugin after logging in to STARS</h1>
+        </div>
+        <div class="page" id="home">
+            <h3 style="padding-top: 15px;">Optimized Registration <br>Browser-based Intelligent Tool</h3>
+            <h1>Orbit for NTU STARS</h1>
+            <button id="fetch" class="button-36" style="margin-top: 0px;">Next(Fetch)</button>
+            <button id="home-to-select">Next(DEBUG)</button>
+        </div>
+        <div class="page" id="select">
+            <h1 style="padding-top: 15px;">Your preferences?</h1>
+            <div style="display: flex; align-items: center;">
+            <span style="font-size: 15px;padding-bottom: 6px;padding-right: 65px;">Day-off?</span>
+            <select class='checkedLevel' id="dayOff">
+                <option value="-1" selected>No Preference</option>
+                <option value="1">Monday</option>
+                <option value="2">Tuesday</option>
+                <option value="3">Wednesday</option>
+                <option value="4">Thursday</option>
+                <option value="5">Friday</option>                                                                                                                                                         
+            </select>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <span style="font-size: 15px;padding-bottom: 6px;padding-right: 30px;">Special Plan?</span>
+                <select class='checkedLevel' id="pref">
+                    <option value="0" selected>No Preference</option>
+                    <option value="2">Xtra Weekend</option>
+                    <option value="1">Lazy Morning</option>
+                    <option value="3" disabled>Early Bird (TBI)</option>
+                    <option value="4" disabled>Midday Focus (TBI)</option>
+                    <option value="5" disabled>Compact Calendar (TBI)</option>
+                    <option value="6" disabled>Spread Schedule (TBI)</option>
+                    <option value="7" disabled>Cohort with Friends (TBI)</option>
+                </select>
+                </div>
+            <button id="select-to-apply" class="button-36" style="height: 40px; position:absolute; right: 20px;">Next</button>
+        </div>
+        <div class="page" id="applydiv">
+            <h1 style="padding-top: 15px;">Congrats!</h1>
+            <h3>We have found your plan!</h3>
+            <h3>Click apply to check it!</h3>
+            <h3>!ORBIT will replace your Plan1!</h3>
+            <button id="apply">Apply</button>
+        </div>
+    </div>
+    
+<!-- <h2>Class Schedule Preferences</h2>
 
-<h2>Class Schedule Preferences</h2>
-
-<form action="/submit-your-data-url" method="post">
+<form method="">
     <fieldset>
         <legend>Unavailable Times</legend>
 
@@ -69,16 +115,8 @@
         <br>
     </fieldset>
 
-    <fieldset>
-        <legend>Add Course</legend>
-
-        <label for="course-name">Course Name:</label>
-        <input type="text" id="course-name" name="course-name">
-        <br>
-    </fieldset>
-
     <button id="add">Submit</button>
-</form>
+</form> -->
 
 <script src="popup.js"></script>
 </body>

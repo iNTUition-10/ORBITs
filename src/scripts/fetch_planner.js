@@ -28,6 +28,25 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
         console.log("parsed form[0], sending back to plugin. data: ", data)
         cookies = document.cookie // 获取当前标签页cookies用于请求
         sendResponse({data, cookies});
+    }else if(request.action == "APPLY") {
+        console.log("fetch_planner.js Applying schedule..." )
+        chrome.storage.local.get(['optimized']).then(optimized => {
+            optimized = optimized.optimized
+            console.log("optimized schedule from storage", optimized)
+            for(var i = 0; i<optimized.length; i++){
+                row = optimized[i]
+                code = row.Coursecode
+                index = row.Index
+                if(document.querySelector('[value="'+index+'"]').parentNode.querySelector('[selected="selected"]'))
+                document.querySelector('[value="'+index+'"]').parentNode.querySelector('[selected="selected"]').removeAttribute("selected")
+                document.querySelector('[value="'+index+'"]').setAttribute("selected", "selected")
+                console.log("fetch_planner.js selected course ", code)
+            }
+            document.getElementsByTagName("form")[1].action='AUS_STARS_PLANNER.save_time_table'
+            sendResponse({status: "done, good bye!"})
+            document.getElementsByTagName("form")[1].submit()
+        })
+        return true // 异步
     }else if(request.action == "GET_COURSES") { // 获取所有添加到STARS列表中的课程
         c = document.querySelectorAll('[title="Click link for more details"]')
         console.log("Getting all selected courses...", c)
@@ -50,15 +69,15 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
             sendResponse({code, index: []})
         }else{
             res = res.getElementsByTagName('tbody')[1]
-            result = Object()
             index = ""
+            choices = []
             in_index = []
             for(var i=1; i<res.childElementCount; i++){
                 cur = []
                 line = res.children[i]
                 if(line.children[0].children[0].innerHTML != "&nbsp;"){
                     if(index != ""){
-                        result[index] = in_index
+                        choices.push({"Index": index, "Timetable": in_index})
                         cur = []
                         in_index = []
                     }
@@ -72,11 +91,13 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
                 remark = line.children[6].children[0].innerHTML.replace("&nbsp;","")
                 if (remark == "") {
                     cur.push("Teaching Wk1-13")
+                }else{
+                    cur.push(remark)
                 }
                 in_index.push(cur)
             }
-            result[index] = in_index
-            console.log("fetch_planner.js parsed html, sending back to plugin. result: ", result)
-            sendResponse({code, index: result})
+            choices.push({"Index": index, "Timetable": in_index})
+            console.log("fetch_planner.js parsed html, sending back to plugin.")
+            sendResponse({code, index: choices})
     }}
 })

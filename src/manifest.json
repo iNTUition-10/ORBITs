@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "ORBIT for STARS",
-    "description": "Optimized Registration Browser-based Intelligent Tool for NTU STARS LDAP",
+    "description": "Optimized Registration Browser-based Intelligent Tool for NTU STARS LDAP, A Project of iNTUition V10.0 Hackathon",
     "version": "0.1",
     "action": {
         "default_popup": "popup/popup.html",

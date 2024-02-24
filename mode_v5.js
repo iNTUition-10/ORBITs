@@ -140,15 +140,14 @@ function outputConflictFreeScheduleToJson(conflictFreeSchedule) {
             Coursecode: courseCode,
             Choices: [{
                 Index: info.Index,
-                Timetable: info.Sessions.map(session => ({
-                    ...session,
-                    Weeks: formatWeeks(session.Weeks)
-                }))
+                // Timetable: info.Sessions.map(session => ({
+                //     ...session,
+                //     Weeks: formatWeeks(session.Weeks)
+                // }))
             }]
         };
     });
-
-    fs.writeFileSync('output.json', JSON.stringify(outputData, null, 4));
+    console.log(JSON.stringify(outputData, null, 4))
 }
 
 // Main function to load JSON and process schedules

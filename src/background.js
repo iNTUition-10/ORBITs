@@ -112,7 +112,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
             Promise.all(r).then(responses => {
                 console.log("text()")
                 console.log(responses)
-                p_courses = Object()
+                p_courses = []
                 parsers = []
                 for(var i=0;i<responses.length;i++){
                     parsers.push(chrome.tabs.sendMessage(tabId, {action: "PARSE", html: responses[i]}))
@@ -121,13 +121,17 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
                     console.log("background.js received PARSER response", )
                     console.log(data)
                     for(var i = 0;i<data.length;i++){    
-                        p_courses[data[i].code] = data[i].index
+                        p_courses.push({"Coursecode":data[i].code, "Choices": data[i].index})
                     }
                     console.log("All course index extracted, ", p_courses)
-                    console.log(p_courses)
+                    chrome.storage.session.set({"fetched_courses": p_courses}).then(() => {
+                        console.log("Saved to session storage `fetched_courses`")
+                        sendResponse({status: "Courses fetched", color: "green"})
+                    })
                 })
             })
         })
+        return true
     }
 })
 

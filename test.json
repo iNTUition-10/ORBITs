@@ -1,150 +1,1983 @@
 [
-    {
+  {
       "Coursecode": "IE3017",
       "Choices": [
-        {
-          "Index": "32252",
-          "Timetable": [
-            ["Tut", "EE01", "Mon", "1130to1250", "ONLINE", "Teaching Wk5"],
-            ["Tut", "EE01", "Mon", "1130to1250", "TR+95", "Teaching Wk1-4,6-13"]
-          ]
-        },
-        {
-          "Index": "32439",
-          "Timetable": [
-            ["Tut", "EE05", "Thu", "1330to1450", "ONLINE", "Teaching Wk5"],
-            ["Tut", "EE05", "Thu", "1330to1450", "TR+95", "Teaching Wk1-4,6-13"]
-          ]
-        },
-        {
-          "Index": "32255",
-          "Timetable": [
-            ["Tut", "EE04", "Thu", "1030to1150", "ONLINE", "Teaching Wk5"],
-            ["Tut", "EE04", "Thu", "1030to1150", "TR+92", "Teaching Wk1-4,6-13"]
-          ]
-        }
+          {
+              "Index": "32252",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE01",
+                      "Mon",
+                      "1130to1250",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE01",
+                      "Mon",
+                      "1130to1250",
+                      "TR+95",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32253",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE02",
+                      "Mon",
+                      "1330to1450",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE02",
+                      "Mon",
+                      "1330to1450",
+                      "TR+92",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32254",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE03",
+                      "Thu",
+                      "1030to1150",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE03",
+                      "Thu",
+                      "1030to1150",
+                      "TR+90",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32255",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE04",
+                      "Thu",
+                      "1030to1150",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE04",
+                      "Thu",
+                      "1030to1150",
+                      "TR+92",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32439",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE05",
+                      "Thu",
+                      "1330to1450",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE05",
+                      "Thu",
+                      "1330to1450",
+                      "TR+92",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32440",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE06",
+                      "Thu",
+                      "1330to1450",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE06",
+                      "Thu",
+                      "1330to1450",
+                      "TR103",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32441",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE07",
+                      "Fri",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE07",
+                      "Fri",
+                      "0930to1050",
+                      "TR+64",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32442",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE08",
+                      "Fri",
+                      "1130to1250",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE08",
+                      "Fri",
+                      "1130to1250",
+                      "TR+64",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          }
       ]
-    },
-
-    {
+  },
+  {
       "Coursecode": "IE2110",
       "Choices": [
           {
-            "Index": " 32432",
-            "Timetable": [
-              ["Tut", "EE15", "Thu", "1130to1250", "ONLINE", "Teaching Wk5"],
-              ["Tut", "EE15", "Thu", "1130to1250", "TR+68", " Teaching Wk1-4,6-13"]
-            ]
+              "Index": "32168",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE01",
+                      "Mon",
+                      "1130to1250",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE01",
+                      "Mon",
+                      "1130to1250",
+                      "TR+66",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
           },
-    
           {
-            "Index": " 32430",
-            "Timetable": [
-                ["Tut", "EE13", "Thu", "0930to1050", "ONLINE", "Teaching Wk5"],
-                ["Tut", "EE13", "Thu", "0930to1050", "TR+68", " Teaching Wk1-4,6-13"]
-            ]
+              "Index": "32169",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE02",
+                      "Mon",
+                      "1130to1250",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE02",
+                      "Mon",
+                      "1130to1250",
+                      "TR+67",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
           },
           {
-            "Index": " 32169",
-            "Timetable": [
-              ["Tut", "EE02", "Mon", "1130to1250", "ONLINE", "Teaching Wk5"],
-              ["Tut", "EE02", "Mon", "1130to1250", "TR+67", " Teaching Wk1-4,6-13"]
-            ]
+              "Index": "32170",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE03",
+                      "Mon",
+                      "1330to1450",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE03",
+                      "Mon",
+                      "1330to1450",
+                      "TR+66",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32171",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE04",
+                      "Mon",
+                      "1330to1450",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE04",
+                      "Mon",
+                      "1330to1450",
+                      "TR+64",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32172",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE05",
+                      "Tue",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE05",
+                      "Tue",
+                      "0930to1050",
+                      "TR+69",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32173",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE06",
+                      "Tue",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE06",
+                      "Tue",
+                      "0930to1050",
+                      "TR+61",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32174",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE07",
+                      "Tue",
+                      "1330to1450",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE07",
+                      "Tue",
+                      "1330to1450",
+                      "TR+89",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32175",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE08",
+                      "Tue",
+                      "1330to1450",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE08",
+                      "Tue",
+                      "1330to1450",
+                      "TR+64",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32176",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE09",
+                      "Wed",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE09",
+                      "Wed",
+                      "0930to1050",
+                      "TR+66",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32177",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE10",
+                      "Wed",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE10",
+                      "Wed",
+                      "0930to1050",
+                      "TR+92",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32178",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE11",
+                      "Wed",
+                      "1130to1250",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE11",
+                      "Wed",
+                      "1130to1250",
+                      "LHS-TR+24",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32429",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE12",
+                      "Thu",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE12",
+                      "Thu",
+                      "0930to1050",
+                      "TR+66",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32430",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE13",
+                      "Thu",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE13",
+                      "Thu",
+                      "0930to1050",
+                      "TR+68",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32431",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE14",
+                      "Thu",
+                      "1130to1250",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE14",
+                      "Thu",
+                      "1130to1250",
+                      "TR+66",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32432",
+              "Timetable": [
+                  [
+                      "Tut",
+                      "EE15",
+                      "Thu",
+                      "1130to1250",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE15",
+                      "Thu",
+                      "1130to1250",
+                      "TR+68",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
           }
-        
-        ]
-      },
-
-      {
-        "Coursecode": "IE2107",
-        "Choices": [
+      ]
+  },
+  {
+      "Coursecode": "IE2107",
+      "Choices": [
           {
-            "Index": "32138",
-            "Timetable": [    
-              ["Lec/Studio", "EELE", "Mon", "0930to1050", "ONLINE", "Teaching Wk5"],
-              ["Lec/Studio", "EELE", "Mon", "0930to1050", "LKC-LT", "Teaching Wk1-4,6-13"],
-              ["Tut", "EE01", "Mon", "1130to1250", "TR+63", "Teaching Wk1-4,6-13 "],
-              ["Tut", "EE01", "Mon", "1130to1250", "ONLINE", "Teaching Wk5"]
-            ]
+              "Index": "32138",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE01",
+                      "Mon",
+                      "1130to1250",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE01",
+                      "Mon",
+                      "1130to1250",
+                      "TR+63",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
           },
           {
-            "Index": "32143",
-            "Timetable": [
-              ["Lec/Studio", "EELE", "Mon", "0930to1050", "ONLINE", "Teaching Wk5"],
-              ["Lec/Studio", "EELE", "Mon", "0930to1050", "LKC-LT", "Teaching Wk1-4,6-13"],
-              ["Tut", "EE06", "Tue", "1430to1550", "TR+69", "Teaching Wk1-4,6-13 "],
-              ["Tut", "EE06", "Tue", "1430to1550", "ONLINE", "Teaching Wk5"]
-            ]
+              "Index": "32139",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE02",
+                      "Mon",
+                      "1130to1250",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE02",
+                      "Mon",
+                      "1130to1250",
+                      "TR+90",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
           },
           {
-            "Index": " 32141",
-            "Timetable": [
-              ["Lec/Studio", "EELE", "Mon", "0930to1050", "ONLINE", "Teaching Wk5"],
-              ["Lec/Studio", "EELE", "Mon", "0930to1050", "LKC-LT", "Teaching Wk1-4,6-13"],
-              ["Tut", "EE04", "Tue", "1130to1250", "TR+64", "Teaching Wk1-4,6-13 "],
-              ["Tut", "EE04", "Tue", "1130to1250", "ONLINE", "Teaching Wk5"]
-            ]
+              "Index": "32140",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE03",
+                      "Tue",
+                      "1130to1250",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE03",
+                      "Tue",
+                      "1130to1250",
+                      "TR+89",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32141",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE04",
+                      "Tue",
+                      "1130to1250",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE04",
+                      "Tue",
+                      "1130to1250",
+                      "TR+64",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32142",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE05",
+                      "Tue",
+                      "1430to1550",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE05",
+                      "Tue",
+                      "1430to1550",
+                      "TR+88",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32143",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE06",
+                      "Tue",
+                      "1430to1550",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE06",
+                      "Tue",
+                      "1430to1550",
+                      "TR+69",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32144",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE07",
+                      "Wed",
+                      "1130to1250",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE07",
+                      "Wed",
+                      "1130to1250",
+                      "TR+63",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32145",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE08",
+                      "Wed",
+                      "1330to1450",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE08",
+                      "Wed",
+                      "1330to1450",
+                      "TR+88",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32146",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE09",
+                      "Wed",
+                      "1330to1450",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE09",
+                      "Wed",
+                      "1330to1450",
+                      "TR+67",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32147",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE10",
+                      "Thu",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE10",
+                      "Thu",
+                      "0930to1050",
+                      "TR+91",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32148",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE11",
+                      "Thu",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE11",
+                      "Thu",
+                      "0930to1050",
+                      "TR+63",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32149",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE12",
+                      "Thu",
+                      "1130to1250",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE12",
+                      "Thu",
+                      "1130to1250",
+                      "TR+63",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32150",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE13",
+                      "Thu",
+                      "1530to1650",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE13",
+                      "Thu",
+                      "1530to1650",
+                      "TR+88",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32151",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE14",
+                      "Thu",
+                      "1530to1650",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE14",
+                      "Thu",
+                      "1530to1650",
+                      "TR+68",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32152",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "0930to1050",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE15",
+                      "Thu",
+                      "1130to1250",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE15",
+                      "Thu",
+                      "1130to1250",
+                      "TR102",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
           }
-        ]
-      },
-
-      {
-        "Coursecode": "IE2108",
-        "Choices": [
+      ]
+  },
+  {
+      "Coursecode": "IE2108",
+      "Choices": [
           {
-            "Index": "32160",
-            "Timetable": [
-              ["Lec/Studio", "EELE", "Mon", "1630to1750", "ONLINE", "Teaching Wk5"],
-              ["Lec/Studio", "EELE", "Mon", "1630to1750", "LKC-LT", "Teaching Wk1-4,6-13"],
-              ["Tut", "EE05", "Tue", "0930to1050", "TR+67", "Teaching Wk1-4,6-13 "],
-              ["Tut", "EE05", "Tue", "0930to1050", "ONLINE", "Teaching Wk5"]
-            ]
+              "Index": "32156",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE01",
+                      "Mon",
+                      "1130to1250",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE01",
+                      "Mon",
+                      "1130to1250",
+                      "TR+89",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
           },
           {
-            "Index": "32400",
-            "Timetable": [
-                ["Lec/Studio", "EELE", "Mon", "1630to1750", "ONLINE", "Teaching Wk5"],
-                ["Lec/Studio", "EELE", "Mon", "1630to1750", "LKC-LT", "Teaching Wk1-4,6-13"],
-                ["Tut", "EE11", "Wed", "1030to1150", "TR+90", "Teaching Wk1-4,6-13 "],
-                ["Tut", "EE11", "Wed", "1030to1150", "ONLINE", "Teaching Wk5"]
-            ]
-          }, 
-          {
-            "Index": "32159",
-            "Timetable": [
-                ["Lec/Studio", "EELE", "Mon", "1630to1750", "ONLINE", "Teaching Wk5"],
-                ["Lec/Studio", "EELE", "Mon", "1630to1750", "LKC-LT", "Teaching Wk1-4,6-13"],
-                ["Tut", "EE04", "Mon", "1430to1550", "TR+90", "Teaching Wk1-4,6-13 "],
-                ["Tut", "EE04", "Mon", "1430to1550  ", "ONLINE", "Teaching Wk5"]
-            ]
-          } 
-        ]
-      },
-
-      {
-        "Coursecode": "EE2073",
-        "Choices": [
-          {
-            "Index": "32120",
-            "Timetable": [
-                ["Lec/Studio", "EELE", "Fri", "0930to1220", "LT23", " Teaching Wk1,2"],
-                ["Prj", "EJ12", "Thu", "0930to1220", "S2-B4C-15", "Teaching Wk3-12"]
-            ]
+              "Index": "32157",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE02",
+                      "Mon",
+                      "1330to1450",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE02",
+                      "Mon",
+                      "1330to1450",
+                      "TR+88",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
           },
           {
-            "Index": "32118",   
-            "Timetable": [
-                ["Lec/Studio", "EELE", "Fri", "0930to1220", "LT23", " Teaching Wk1,2"],
-                ["Prj", "EJ10", "Wed", "1330to1620", "S2-B4C-15", " Teaching Wk3-11,13"]
-            ]
+              "Index": "32158",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE03",
+                      "Mon",
+                      "1330to1450",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE03",
+                      "Mon",
+                      "1330to1450",
+                      "TR+89",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
           },
           {
-            "Index": "32114",   
-            "Timetable": [
-                ["Lec/Studio", "EELE", "Fri", "0930to1220", "LT23", " Teaching Wk1,2"],
-                ["Prj", "EJ06", "Tue", "1330to1620", "S2-B4C-15", "Teaching Wk3-12"]
-            ]
+              "Index": "32159",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE04",
+                      "Mon",
+                      "1430to1550",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE04",
+                      "Mon",
+                      "1430to1550",
+                      "TR+90",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32160",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE05",
+                      "Tue",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE05",
+                      "Tue",
+                      "0930to1050",
+                      "TR+67",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32161",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE06",
+                      "Tue",
+                      "0930to1050",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE06",
+                      "Tue",
+                      "0930to1050",
+                      "TR+68",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32162",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE07",
+                      "Tue",
+                      "1130to1250",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE07",
+                      "Tue",
+                      "1130to1250",
+                      "TR+67",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32163",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE08",
+                      "Tue",
+                      "1130to1250",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE08",
+                      "Tue",
+                      "1130to1250",
+                      "TR+68",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32164",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE09",
+                      "Tue",
+                      "1330to1450",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE09",
+                      "Tue",
+                      "1330to1450",
+                      "TR+67",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32165",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE10",
+                      "Wed",
+                      "1030to1150",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE10",
+                      "Wed",
+                      "1030to1150",
+                      "TR+91",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32400",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE11",
+                      "Wed",
+                      "1030to1150",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE11",
+                      "Wed",
+                      "1030to1150",
+                      "TR+90",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32401",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE12",
+                      "Wed",
+                      "1030to1150",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE12",
+                      "Wed",
+                      "1030to1150",
+                      "TR+94",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32402",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE13",
+                      "Wed",
+                      "1330to1450",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE13",
+                      "Wed",
+                      "1330to1450",
+                      "TR+69",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32403",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE14",
+                      "Wed",
+                      "1330to1450",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE14",
+                      "Wed",
+                      "1330to1450",
+                      "TR+66",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32404",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE15",
+                      "Thu",
+                      "1030to1150",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE15",
+                      "Thu",
+                      "1030to1150",
+                      "TR103",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32405",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE16",
+                      "Thu",
+                      "1030to1150",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE16",
+                      "Thu",
+                      "1030to1150",
+                      "TR+89",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32406",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Tut",
+                      "EE17",
+                      "Thu",
+                      "1330to1450",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE17",
+                      "Thu",
+                      "1330to1450",
+                      "TR+67",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32407",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "LKC-LT",
+                      "Teaching Wk1-4,6-13"
+                  ],
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Mon",
+                      "1630to1750",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE18",
+                      "Thu",
+                      "1330to1450",
+                      "ONLINE",
+                      "Teaching Wk5"
+                  ],
+                  [
+                      "Tut",
+                      "EE18",
+                      "Thu",
+                      "1330to1450",
+                      "TR+68",
+                      "Teaching Wk1-4,6-13"
+                  ]
+              ]
           }
-        ]
-      }
-  ]
+      ]
+  },
+  {
+      "Coursecode": "EE2073",
+      "Choices": [
+          {
+              "Index": "32109",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Fri",
+                      "0930to1220",
+                      "LT23",
+                      "Teaching Wk1,2"
+                  ],
+                  [
+                      "Prj",
+                      "EJ01",
+                      "Mon",
+                      "0930to1220",
+                      "S2-B4C-15",
+                      "Teaching Wk3,4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32110",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Fri",
+                      "0930to1220",
+                      "LT23",
+                      "Teaching Wk1,2"
+                  ],
+                  [
+                      "Prj",
+                      "EJ02",
+                      "Mon",
+                      "0930to1220",
+                      "S2-B4C-15",
+                      "Teaching Wk3,4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32111",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Fri",
+                      "0930to1220",
+                      "LT23",
+                      "Teaching Wk1,2"
+                  ],
+                  [
+                      "Prj",
+                      "EJ03",
+                      "Mon",
+                      "1330to1620",
+                      "S2-B4C-15",
+                      "Teaching Wk3,4,6-13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32112",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Fri",
+                      "0930to1220",
+                      "LT23",
+                      "Teaching Wk1,2"
+                  ],
+                  [
+                      "Prj",
+                      "EJ04",
+                      "Tue",
+                      "0930to1220",
+                      "S2-B4C-15",
+                      "Teaching Wk3-12"
+                  ]
+              ]
+          },
+          {
+              "Index": "32113",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Fri",
+                      "0930to1220",
+                      "LT23",
+                      "Teaching Wk1,2"
+                  ],
+                  [
+                      "Prj",
+                      "EJ05",
+                      "Tue",
+                      "0930to1220",
+                      "S2-B4C-15",
+                      "Teaching Wk3-12"
+                  ]
+              ]
+          },
+          {
+              "Index": "32114",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Fri",
+                      "0930to1220",
+                      "LT23",
+                      "Teaching Wk1,2"
+                  ],
+                  [
+                      "Prj",
+                      "EJ06",
+                      "Tue",
+                      "1330to1620",
+                      "S2-B4C-15",
+                      "Teaching Wk3-12"
+                  ]
+              ]
+          },
+          {
+              "Index": "32115",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Fri",
+                      "0930to1220",
+                      "LT23",
+                      "Teaching Wk1,2"
+                  ],
+                  [
+                      "Prj",
+                      "EJ07",
+                      "Wed",
+                      "0930to1220",
+                      "S2-B4C-15",
+                      "Teaching Wk3-11,13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32116",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Fri",
+                      "0930to1220",
+                      "LT23",
+                      "Teaching Wk1,2"
+                  ],
+                  [
+                      "Prj",
+                      "EJ08",
+                      "Wed",
+                      "0930to1220",
+                      "S2-B4C-15",
+                      "Teaching Wk3-11,13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32117",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Fri",
+                      "0930to1220",
+                      "LT23",
+                      "Teaching Wk1,2"
+                  ],
+                  [
+                      "Prj",
+                      "EJ09",
+                      "Wed",
+                      "1330to1620",
+                      "S2-B4C-15",
+                      "Teaching Wk3-11,13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32118",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Fri",
+                      "0930to1220",
+                      "LT23",
+                      "Teaching Wk1,2"
+                  ],
+                  [
+                      "Prj",
+                      "EJ10",
+                      "Wed",
+                      "1330to1620",
+                      "S2-B4C-15",
+                      "Teaching Wk3-11,13"
+                  ]
+              ]
+          },
+          {
+              "Index": "32119",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Fri",
+                      "0930to1220",
+                      "LT23",
+                      "Teaching Wk1,2"
+                  ],
+                  [
+                      "Prj",
+                      "EJ11",
+                      "Thu",
+                      "0930to1220",
+                      "S2-B4C-15",
+                      "Teaching Wk3-12"
+                  ]
+              ]
+          },
+          {
+              "Index": "32120",
+              "Timetable": [
+                  [
+                      "Lec/Studio",
+                      "EELE",
+                      "Fri",
+                      "0930to1220",
+                      "LT23",
+                      "Teaching Wk1,2"
+                  ],
+                  [
+                      "Prj",
+                      "EJ12",
+                      "Thu",
+                      "0930to1220",
+                      "S2-B4C-15",
+                      "Teaching Wk3-12"
+                  ]
+              ]
+          }
+      ]
+  }
+]
