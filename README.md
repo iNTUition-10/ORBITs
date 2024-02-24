@@ -32,3 +32,10 @@ Optimized Registration Browser-based Intelligent Tool for STARS
 
 {"Coursecode":"SC1006"}......
 
+
+{
+    "AB1201": {
+        "10000": [["Lec/Studio","1","Thu","0830to1220","ONLINE","Teaching Wk5"],[...],[...],[...]],
+        "10001": .......
+    }
+}

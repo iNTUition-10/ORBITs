@@ -69,6 +69,15 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
             console.log("All requests completed")
             responses = responses.map((response) => response.text())
             console.log(responses)
+            courses = []
+            for(var i = 0;i<responses.length;i++){
+                res = responses[i]
+                res = DOMParser.parseFromString(res, 'text/html')
+                code = res.querySelector('[title="Add to Course Codes list"]').parentNode.href.split("'")[1]
+                if(res.includes("for course is not available.")){
+
+                }
+            }
         })
     }
 })
