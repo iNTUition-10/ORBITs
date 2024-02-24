@@ -1,0 +1,84 @@
+import json
+
+def parse_course_schedules(data):
+    course_schedules = {}
+    for course in data:
+        course_code = course['Coursecode']
+        course_schedules[course_code] = []
+        for choice in course.get('Choices', []):
+            sessions = []
+            for session in choice.get('Timetable', []):
+                session_details = {
+                    'Type': session[0],
+                    'Group': session[1],
+                    'Day': session[2],
+                    'Time': session[3],
+                    'Venue': session[4],
+                    'Weeks': parse_weeks(session[5])  # Assume parse_weeks is defined
+                }
+                sessions.append(session_details)
+            course_schedules[course_code].append({'Index': choice['Index'], 'Sessions': sessions})
+    return course_schedules
+
+
+def parse_weeks(week_str):
+    weeks = []
+    for part in week_str.replace('Teaching Wk', '').split(','):
+        if '-' in part:
+            start, end = map(int, part.split('-'))
+            weeks.extend(range(start, end + 1))
+        else:
+            weeks.append(int(part))
+    return weeks
+
+def sessions_overlap(session1, session2):
+    # Check if times overlap (simplified for illustration)
+    time_overlap = session1['Time'] == session2['Time']  # Simplified comparison
+    # Check if weeks overlap
+    week_overlap = any(week in session2['Weeks'] for week in session1['Weeks'])
+    return time_overlap and week_overlap
+
+
+def find_conflict_free_schedule(course_schedules):
+    conflict_free_schedule = {}
+    
+    for course_code, indexes in course_schedules.items():
+        for index_info in indexes:
+            index = index_info['Index']
+            sessions = index_info['Sessions']
+            is_conflict = False
+            
+            for other_course, other_indexes in conflict_free_schedule.items():
+                for other_session in other_indexes['Sessions']:
+                    for session in sessions:
+                        if sessions_overlap(session, other_session):
+                            is_conflict = True
+                            break
+                    if is_conflict:
+                        break
+                if is_conflict:
+                    break
+                    
+            if not is_conflict:
+                conflict_free_schedule[course_code] = {'Index': index, 'Sessions': sessions}
+                break  # Once a conflict-free index is found, move to the next course
+
+    # Print the conflict-free schedule
+    if len(conflict_free_schedule) == len(course_schedules):
+        for course_code, index_info in conflict_free_schedule.items():
+            print(f"Course: {course_code}, Index: {index_info['Index']}")
+            for session in index_info['Sessions']:
+                print(session)
+    else:
+        print("A conflict-free schedule could not be found for all courses.")
+
+# Load JSON data from a file
+with open('test.json', 'r') as file:
+    data = json.load(file)
+
+course_schedules=parse_course_schedules(data)
+            
+# Assuming `course_schedules` is populated with course data including parsed weeks
+find_conflict_free_schedule(course_schedules)
+
+
