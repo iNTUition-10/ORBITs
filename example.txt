@@ -2,7 +2,6 @@ JS对象：
 复制到浏览器/JS文件内导入
 var a =
 {
-    "AB1201": [],
     "AB1501": {
         "00680": [
             [
@@ -11,23 +10,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "1",
                 "Mon",
                 "0830to1020",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "1",
                 "Mon",
                 "0830to1020",
-                "TR+30",
-                "Teaching Wk2-4,6-13"
+                "TR+30"
             ]
         ],
         "00681": [
@@ -37,15 +34,14 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "2",
                 "Mon",
                 "1030to1220",
-                "TR+30",
-                "Teaching Wk2-4,6-13"
+                "TR+30"
             ]
         ],
         "00682": [
@@ -55,23 +51,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "3",
                 "Fri",
                 "0830to1020",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "3",
                 "Fri",
                 "0830to1020",
-                "TR+30",
-                "Teaching Wk2-4,6-13"
+                "TR+30"
             ]
         ],
         "00683": [
@@ -81,23 +75,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "4",
                 "Tue",
                 "0830to1020",
-                "TR+108",
-                "Teaching Wk2-4,6-13"
+                "TR+108"
             ],
             [
                 "Tut",
                 "4",
                 "Tue",
                 "0830to1020",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ]
         ],
         "00684": [
@@ -107,23 +99,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "5",
                 "Tue",
                 "0830to1020",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "5",
                 "Tue",
                 "0830to1020",
-                "TR+30",
-                "Teaching Wk2-4,6-13"
+                "TR+30"
             ]
         ],
         "00685": [
@@ -133,23 +123,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "6",
                 "Tue",
                 "1030to1220",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "6",
                 "Tue",
                 "1030to1220",
-                "LHS-TR+55",
-                "Teaching Wk2-4,6-13"
+                "LHS-TR+55"
             ]
         ],
         "00686": [
@@ -159,23 +147,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "7",
                 "Tue",
                 "1030to1220",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "7",
                 "Tue",
                 "1030to1220",
-                "TR+30",
-                "Teaching Wk2-4,6-13"
+                "TR+30"
             ]
         ],
         "00687": [
@@ -185,23 +171,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "8",
                 "Tue",
                 "1030to1220",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "8",
                 "Tue",
                 "1030to1220",
-                "TR+92",
-                "Teaching Wk2-4,6-13"
+                "TR+92"
             ]
         ],
         "00688": [
@@ -211,23 +195,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "9",
                 "Tue",
                 "1330to1520",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "9",
                 "Tue",
                 "1330to1520",
-                "TR+92",
-                "Teaching Wk2-4,6-13"
+                "TR+92"
             ]
         ],
         "00689": [
@@ -237,23 +219,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "10",
                 "Tue",
                 "1330to1520",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "10",
                 "Tue",
                 "1330to1520",
-                "TR+30",
-                "Teaching Wk2-4,6-13"
+                "TR+30"
             ]
         ],
         "00690": [
@@ -263,23 +243,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "11",
                 "Tue",
                 "1330to1520",
-                "LHS-TR+42",
-                "Teaching Wk2-4,6-13"
+                "LHS-TR+42"
             ],
             [
                 "Tut",
                 "11",
                 "Tue",
                 "1330to1520",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ]
         ],
         "00691": [
@@ -289,23 +267,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "12",
                 "Tue",
                 "1530to1720",
-                "LHS-TR+42",
-                "Teaching Wk2-4,6-13"
+                "LHS-TR+42"
             ],
             [
                 "Tut",
                 "12",
                 "Tue",
                 "1530to1720",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ]
         ],
         "00692": [
@@ -315,23 +291,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "13",
                 "Tue",
                 "1530to1720",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "13",
                 "Tue",
                 "1530to1720",
-                "TR+30",
-                "Teaching Wk2-4,6-13"
+                "TR+30"
             ]
         ],
         "00693": [
@@ -341,23 +315,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "14",
                 "Tue",
                 "1530to1720",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "14",
                 "Tue",
                 "1530to1720",
-                "TR+92",
-                "Teaching Wk2-4,6-13"
+                "TR+92"
             ]
         ],
         "00694": [
@@ -367,23 +339,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "15",
                 "Mon",
                 "1330to1520",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "15",
                 "Mon",
                 "1330to1520",
-                "TR+30",
-                "Teaching Wk2-4,6-13"
+                "TR+30"
             ]
         ],
         "00695": [
@@ -393,23 +363,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "16",
                 "Fri",
                 "1030to1220",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "16",
                 "Fri",
                 "1030to1220",
-                "TR+108",
-                "Teaching Wk2-4,6-13"
+                "TR+108"
             ]
         ],
         "00696": [
@@ -419,23 +387,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "17",
                 "Fri",
                 "0830to1020",
-                "TR+31",
-                "Teaching Wk2-4,6-13"
+                "TR+31"
             ],
             [
                 "Tut",
                 "17",
                 "Fri",
                 "0830to1020",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ]
         ],
         "00697": [
@@ -445,23 +411,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "18",
                 "Mon",
                 "1530to1720",
-                "TR+30",
-                "Teaching Wk2-4,6-13"
+                "TR+30"
             ],
             [
                 "Tut",
                 "18",
                 "Mon",
                 "1530to1720",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ]
         ],
         "00698": [
@@ -471,23 +435,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "19",
                 "Fri",
                 "1030to1220",
-                "TR+30",
-                "Teaching Wk2-4,6-13"
+                "TR+30"
             ],
             [
                 "Tut",
                 "19",
                 "Fri",
                 "1030to1220",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ]
         ],
         "00699": [
@@ -497,23 +459,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "20",
                 "Fri",
                 "1330to1520",
-                "TR+108",
-                "Teaching Wk2-4,6-13"
+                "TR+108"
             ],
             [
                 "Tut",
                 "20",
                 "Fri",
                 "1330to1520",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ]
         ],
         "00700": [
@@ -523,23 +483,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "21",
                 "Fri",
                 "1330to1520",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "21",
                 "Fri",
                 "1330to1520",
-                "TR+30",
-                "Teaching Wk2-4,6-13"
+                "TR+30"
             ]
         ],
         "00701": [
@@ -549,23 +507,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "22",
                 "Fri",
                 "1530to1720",
-                "TR+108",
-                "Teaching Wk2-4,6-13"
+                "TR+108"
             ],
             [
                 "Tut",
                 "22",
                 "Fri",
                 "1530to1720",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ]
         ],
         "00702": [
@@ -575,23 +531,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "23",
                 "Fri",
                 "1530to1720",
-                "TR+30",
-                "Teaching Wk2-4,6-13"
+                "TR+30"
             ],
             [
                 "Tut",
                 "23",
                 "Fri",
                 "1530to1720",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ]
         ],
         "00703": [
@@ -601,23 +555,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "24",
                 "Fri",
                 "1530to1720",
-                "TR+107",
-                "Teaching Wk2-4,6-13"
+                "TR+107"
             ],
             [
                 "Tut",
                 "24",
                 "Fri",
                 "1530to1720",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ]
         ],
         "00704": [
@@ -627,23 +579,21 @@ var a =
                 "Wed",
                 "0930to1020",
                 "ONLINE",
-                ""
+                "Teaching Wk1-13"
             ],
             [
                 "Tut",
                 "25",
                 "Fri",
                 "1030to1220",
-                "TR+31",
-                "Teaching Wk2-4,6-13"
+                "TR+31"
             ],
             [
                 "Tut",
                 "25",
                 "Fri",
                 "1030to1220",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ]
         ]
     },
@@ -654,16 +604,14 @@ var a =
                 "LE",
                 "Sat",
                 "0830to1550",
-                "LT9",
-                "Teaching Wk8,9,11-13"
+                "LT9"
             ],
             [
                 "Lec/Studio",
                 "LE",
                 "Sat",
                 "1830to1950",
-                "ONLINE",
-                "Teaching Wk10"
+                "ONLINE"
             ]
         ]
     },
@@ -674,32 +622,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Tut",
                 "FCEA",
                 "Wed",
                 "0930to1020",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCEA",
                 "Wed",
                 "0930to1020",
-                "TR+15",
-                "Teaching Wk2-4,6-13"
+                "TR+15"
             ],
             [
                 "Lab",
@@ -707,7 +651,7 @@ var a =
                 "Wed",
                 "1230to1420",
                 "SWLAB2",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10056": [
@@ -716,32 +660,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Tut",
                 "FCEB",
                 "Thu",
                 "1530to1620",
-                "TR+1",
-                "Teaching Wk2-4,6-13"
+                "TR+1"
             ],
             [
                 "Tut",
                 "FCEB",
                 "Thu",
                 "1530to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lab",
@@ -749,7 +689,7 @@ var a =
                 "Mon",
                 "1030to1220",
                 "SWLAB1",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10057": [
@@ -758,32 +698,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Tut",
                 "FCEC",
                 "Mon",
                 "1530to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCEC",
                 "Mon",
                 "1530to1620",
-                "TR+1",
-                "Teaching Wk2-4,6-13"
+                "TR+1"
             ],
             [
                 "Lab",
@@ -791,7 +727,7 @@ var a =
                 "Wed",
                 "1230to1420",
                 "SWLAB3",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10058": [
@@ -800,32 +736,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCED",
                 "Mon",
                 "1630to1720",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCED",
                 "Mon",
                 "1630to1720",
-                "TR+3",
-                "Teaching Wk2-4,6-13"
+                "TR+3"
             ],
             [
                 "Lab",
@@ -833,7 +765,7 @@ var a =
                 "Tue",
                 "1230to1420",
                 "SWLAB1",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10059": [
@@ -842,32 +774,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Tut",
                 "FCEE",
                 "Thu",
                 "1530to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCEE",
                 "Thu",
                 "1530to1620",
-                "TR+2",
-                "Teaching Wk2-4,6-13"
+                "TR+2"
             ],
             [
                 "Lab",
@@ -875,7 +803,7 @@ var a =
                 "Tue",
                 "1030to1220",
                 "SWLAB3",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10060": [
@@ -884,32 +812,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCE1",
                 "Thu",
                 "1630to1720",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCE1",
                 "Thu",
                 "1630to1720",
-                "TR+1",
-                "Teaching Wk2-4,6-13"
+                "TR+1"
             ],
             [
                 "Lab",
@@ -917,7 +841,7 @@ var a =
                 "Mon",
                 "1430to1620",
                 "SPL",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10061": [
@@ -926,32 +850,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCE2",
                 "Wed",
                 "0930to1020",
-                "TR+2",
-                "Teaching Wk2-4,6-13"
+                "TR+2"
             ],
             [
                 "Tut",
                 "FCE2",
                 "Wed",
                 "0930to1020",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lab",
@@ -959,7 +879,7 @@ var a =
                 "Mon",
                 "1430to1620",
                 "SWLAB2",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10062": [
@@ -968,32 +888,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCE3",
                 "Mon",
                 "1030to1120",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCE3",
                 "Mon",
                 "1030to1120",
-                "TR+3",
-                "Teaching Wk2-4,6-13"
+                "TR+3"
             ],
             [
                 "Lab",
@@ -1001,7 +917,7 @@ var a =
                 "Thu",
                 "1230to1420",
                 "SWLAB1",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10063": [
@@ -1010,32 +926,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCSA",
                 "Fri",
                 "1330to1420",
-                "TR+4",
-                "Teaching Wk2-4,6-13"
+                "TR+4"
             ],
             [
                 "Tut",
                 "FCSA",
                 "Fri",
                 "1330to1420",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lab",
@@ -1043,7 +955,7 @@ var a =
                 "Thu",
                 "1230to1420",
                 "SWLAB3",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10064": [
@@ -1052,32 +964,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCSB",
                 "Thu",
                 "1330to1420",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCSB",
                 "Thu",
                 "1330to1420",
-                "TR+6",
-                "Teaching Wk2-4,6-13"
+                "TR+6"
             ],
             [
                 "Lab",
@@ -1085,7 +993,7 @@ var a =
                 "Fri",
                 "1430to1620",
                 "SWLAB3",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10065": [
@@ -1094,32 +1002,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCSC",
                 "Tue",
                 "0930to1020",
-                "TR+3",
-                "Teaching Wk2-4,6-13"
+                "TR+3"
             ],
             [
                 "Tut",
                 "FCSC",
                 "Tue",
                 "0930to1020",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lab",
@@ -1127,7 +1031,7 @@ var a =
                 "Wed",
                 "0830to1020",
                 "SPL",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10066": [
@@ -1136,32 +1040,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCSD",
                 "Tue",
                 "0930to1020",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCSD",
                 "Tue",
                 "0930to1020",
-                "TR+4",
-                "Teaching Wk2-4,6-13"
+                "TR+4"
             ],
             [
                 "Lab",
@@ -1169,7 +1069,7 @@ var a =
                 "Mon",
                 "1030to1220",
                 "SPL",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10067": [
@@ -1178,32 +1078,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCSE",
                 "Mon",
                 "1030to1120",
-                "TR+1",
-                "Teaching Wk2-4,6-13"
+                "TR+1"
             ],
             [
                 "Tut",
                 "FCSE",
                 "Mon",
                 "1030to1120",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lab",
@@ -1211,7 +1107,7 @@ var a =
                 "Fri",
                 "1230to1420",
                 "SPL",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10068": [
@@ -1220,32 +1116,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Tut",
                 "FCSF",
                 "Wed",
                 "1530to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCSF",
                 "Wed",
                 "1530to1620",
-                "TR+1",
-                "Teaching Wk2-4,6-13"
+                "TR+1"
             ],
             [
                 "Lab",
@@ -1253,7 +1145,7 @@ var a =
                 "Tue",
                 "0830to1020",
                 "SPL",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10069": [
@@ -1262,32 +1154,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Tut",
                 "FCSG",
                 "Wed",
                 "1330to1420",
-                "TR+1",
-                "Teaching Wk2-4,6-13"
+                "TR+1"
             ],
             [
                 "Tut",
                 "FCSG",
                 "Wed",
                 "1330to1420",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lab",
@@ -1295,7 +1183,7 @@ var a =
                 "Thu",
                 "1430to1620",
                 "SPL",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10070": [
@@ -1304,32 +1192,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCSH",
                 "Fri",
                 "0930to1020",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCSH",
                 "Fri",
                 "0930to1020",
-                "TR+2",
-                "Teaching Wk2-4,6-13"
+                "TR+2"
             ],
             [
                 "Lab",
@@ -1337,7 +1221,7 @@ var a =
                 "Thu",
                 "1030to1220",
                 "SWLAB3",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10071": [
@@ -1346,32 +1230,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCSI",
                 "Wed",
                 "1330to1420",
-                "TR+6",
-                "Teaching Wk2-4,6-13"
+                "TR+6"
             ],
             [
                 "Tut",
                 "FCSI",
                 "Wed",
                 "1330to1420",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lab",
@@ -1379,7 +1259,7 @@ var a =
                 "Tue",
                 "1230to1420",
                 "SPL",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10072": [
@@ -1388,32 +1268,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCS1",
                 "Thu",
                 "1030to1120",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCS1",
                 "Thu",
                 "1030to1120",
-                "TR+8",
-                "Teaching Wk2-4,6-13"
+                "TR+8"
             ],
             [
                 "Lab",
@@ -1421,7 +1297,7 @@ var a =
                 "Wed",
                 "0830to1020",
                 "SWLAB2",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10073": [
@@ -1430,32 +1306,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Tut",
                 "FCS2",
                 "Wed",
                 "1430to1520",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCS2",
                 "Wed",
                 "1430to1520",
-                "TR+4",
-                "Teaching Wk2-4,6-13"
+                "TR+4"
             ],
             [
                 "Lab",
@@ -1463,7 +1335,7 @@ var a =
                 "Fri",
                 "1230to1420",
                 "SWLAB1",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10074": [
@@ -1472,32 +1344,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCS3",
                 "Fri",
                 "1230to1320",
-                "TR+4",
-                "Teaching Wk2-4,6-13"
+                "TR+4"
             ],
             [
                 "Tut",
                 "FCS3",
                 "Fri",
                 "1230to1320",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lab",
@@ -1505,7 +1373,7 @@ var a =
                 "Fri",
                 "1430to1620",
                 "SPL",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10075": [
@@ -1514,32 +1382,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Tut",
                 "FCS4",
                 "Fri",
                 "1030to1120",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCS4",
                 "Fri",
                 "1030to1120",
-                "TR+5",
-                "Teaching Wk2-4,6-13"
+                "TR+5"
             ],
             [
                 "Lab",
@@ -1547,7 +1411,7 @@ var a =
                 "Wed",
                 "1430to1620",
                 "SWLAB3",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10076": [
@@ -1556,32 +1420,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCS5",
                 "Fri",
                 "1430to1520",
-                "TR+3",
-                "Teaching Wk2-4,6-13"
+                "TR+3"
             ],
             [
                 "Tut",
                 "FCS5",
                 "Fri",
                 "1430to1520",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lab",
@@ -1589,7 +1449,7 @@ var a =
                 "Tue",
                 "0830to1020",
                 "SWLAB1",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10077": [
@@ -1598,32 +1458,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Tut",
                 "FCS6",
                 "Fri",
                 "1030to1120",
-                "TR+2",
-                "Teaching Wk2-4,6-13"
+                "TR+2"
             ],
             [
                 "Tut",
                 "FCS6",
                 "Fri",
                 "1030to1120",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lab",
@@ -1631,7 +1487,7 @@ var a =
                 "Thu",
                 "1430to1620",
                 "SWLAB2",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10078": [
@@ -1640,32 +1496,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCS7",
                 "Thu",
                 "1630to1720",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCS7",
                 "Thu",
                 "1630to1720",
-                "TR+5",
-                "Teaching Wk2-4,6-13"
+                "TR+5"
             ],
             [
                 "Lab",
@@ -1673,7 +1525,7 @@ var a =
                 "Tue",
                 "1030to1220",
                 "SWLAB1",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10079": [
@@ -1682,32 +1534,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCMA",
                 "Tue",
                 "1630to1720",
-                "TR+2",
-                "Teaching Wk2-4,6-13"
+                "TR+2"
             ],
             [
                 "Tut",
                 "FCMA",
                 "Tue",
                 "1630to1720",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lab",
@@ -1715,7 +1563,7 @@ var a =
                 "Mon",
                 "0830to1020",
                 "SWLAB3",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10080": [
@@ -1724,32 +1572,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCMB",
                 "Tue",
                 "1630to1720",
-                "TR+4",
-                "Teaching Wk2-4,6-13"
+                "TR+4"
             ],
             [
                 "Tut",
                 "FCMB",
                 "Tue",
                 "1630to1720",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lab",
@@ -1757,7 +1601,7 @@ var a =
                 "Mon",
                 "0830to1020",
                 "SPL",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10081": [
@@ -1766,32 +1610,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FDAA",
                 "Wed",
                 "1530to1620",
-                "TR+15",
-                "Teaching Wk2-4,6-13"
+                "TR+15"
             ],
             [
                 "Tut",
                 "FDAA",
                 "Wed",
                 "1530to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lab",
@@ -1799,7 +1639,7 @@ var a =
                 "Thu",
                 "1030to1220",
                 "SPL",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10082": [
@@ -1808,32 +1648,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FDAB",
                 "Wed",
                 "1230to1320",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FDAB",
                 "Wed",
                 "1230to1320",
-                "TR+5",
-                "Teaching Wk2-4,6-13"
+                "TR+5"
             ],
             [
                 "Lab",
@@ -1841,7 +1677,7 @@ var a =
                 "Mon",
                 "1230to1420",
                 "SWLAB2",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10083": [
@@ -1850,32 +1686,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FDAC",
                 "Thu",
                 "1030to1120",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FDAC",
                 "Thu",
                 "1030to1120",
-                "TR+2",
-                "Teaching Wk2-4,6-13"
+                "TR+2"
             ],
             [
                 "Lab",
@@ -1883,7 +1715,7 @@ var a =
                 "Wed",
                 "1430to1620",
                 "SPL",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10084": [
@@ -1892,32 +1724,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Tut",
                 "FDAD",
                 "Tue",
                 "1330to1420",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FDAD",
                 "Tue",
                 "1330to1420",
-                "TR+2",
-                "Teaching Wk2-4,6-13"
+                "TR+2"
             ],
             [
                 "Lab",
@@ -1925,7 +1753,7 @@ var a =
                 "Mon",
                 "1230to1420",
                 "SWLAB3",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10085": [
@@ -1934,32 +1762,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Tut",
                 "FDAE",
                 "Thu",
                 "1430to1520",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FDAE",
                 "Thu",
                 "1430to1520",
-                "TR+2",
-                "Teaching Wk2-4,6-13"
+                "TR+2"
             ],
             [
                 "Lab",
@@ -1967,7 +1791,7 @@ var a =
                 "Wed",
                 "1030to1220",
                 "SPL",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10086": [
@@ -1976,32 +1800,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCCA",
                 "Thu",
                 "1230to1320",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "FCCA",
                 "Thu",
                 "1230to1320",
-                "TR+2",
-                "Teaching Wk2-4,6-13"
+                "TR+2"
             ],
             [
                 "Lab",
@@ -2009,7 +1829,7 @@ var a =
                 "Wed",
                 "1030to1220",
                 "SWLAB2",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10386": [
@@ -2018,32 +1838,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "MACS1",
                 "Fri",
                 "1330to1420",
-                "TR+6",
-                "Teaching Wk2-4,6-13"
+                "TR+6"
             ],
             [
                 "Tut",
                 "MACS1",
                 "Fri",
                 "1330to1420",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lab",
@@ -2051,7 +1867,7 @@ var a =
                 "Fri",
                 "1430to1620",
                 "SWLAB1",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10387": [
@@ -2060,32 +1876,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Tut",
                 "ACDA1",
                 "Fri",
                 "1230to1320",
-                "TR+16",
-                "Teaching Wk2-4,6-13"
+                "TR+16"
             ],
             [
                 "Tut",
                 "ACDA1",
                 "Fri",
                 "1230to1320",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lab",
@@ -2093,7 +1905,7 @@ var a =
                 "Wed",
                 "1430to1620",
                 "SWLAB2",
-                ""
+                "Teaching Wk1-13"
             ]
         ],
         "10395": [
@@ -2102,32 +1914,28 @@ var a =
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "LKC-LT",
-                "Teaching Wk1-4,6-13"
+                "LKC-LT"
             ],
             [
                 "Lec/Studio",
                 "SCL1",
                 "Tue",
                 "1430to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "ECDS1",
                 "Fri",
                 "0930to1020",
-                "TR+9",
-                "Teaching Wk2-4,6-13"
+                "TR+9"
             ],
             [
                 "Tut",
                 "ECDS1",
                 "Fri",
                 "0930to1020",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lab",
@@ -2135,7 +1943,7 @@ var a =
                 "Fri",
                 "1030to1220",
                 "SWLAB3",
-                ""
+                "Teaching Wk1-13"
             ]
         ]
     },
@@ -2146,48 +1954,42 @@ var a =
                 "SCL2",
                 "Fri",
                 "1330to1420",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lec/Studio",
                 "SCL2",
                 "Fri",
                 "1330to1420",
-                "LT4",
-                "Teaching Wk1-4,6-13"
+                "LT4"
             ],
             [
                 "Lec/Studio",
                 "SCL2",
                 "Mon",
                 "1530to1620",
-                "LT4",
-                "Teaching Wk1-4,6-13"
+                "LT4"
             ],
             [
                 "Lec/Studio",
                 "SCL2",
                 "Mon",
                 "1530to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "SCMA",
                 "Wed",
                 "1630to1720",
-                "TR+7",
-                "Teaching Wk2-4,6-13"
+                "TR+7"
             ],
             [
                 "Tut",
                 "SCMA",
                 "Wed",
                 "1630to1720",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ]
         ],
         "10159": [
@@ -2196,48 +1998,42 @@ var a =
                 "SCL2",
                 "Fri",
                 "1330to1420",
-                "LT4",
-                "Teaching Wk1-4,6-13"
+                "LT4"
             ],
             [
                 "Lec/Studio",
                 "SCL2",
                 "Fri",
                 "1330to1420",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lec/Studio",
                 "SCL2",
                 "Mon",
                 "1530to1620",
-                "LT4",
-                "Teaching Wk1-4,6-13"
+                "LT4"
             ],
             [
                 "Lec/Studio",
                 "SCL2",
                 "Mon",
                 "1530to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "SCMB",
                 "Wed",
                 "1030to1120",
-                "TR+16",
-                "Teaching Wk2-4,6-13"
+                "TR+16"
             ],
             [
                 "Tut",
                 "SCMB",
                 "Wed",
                 "1030to1120",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ]
         ],
         "10160": [
@@ -2246,48 +2042,42 @@ var a =
                 "SCL2",
                 "Fri",
                 "1330to1420",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lec/Studio",
                 "SCL2",
                 "Fri",
                 "1330to1420",
-                "LT4",
-                "Teaching Wk1-4,6-13"
+                "LT4"
             ],
             [
                 "Lec/Studio",
                 "SCL2",
                 "Mon",
                 "1530to1620",
-                "LT4",
-                "Teaching Wk1-4,6-13"
+                "LT4"
             ],
             [
                 "Lec/Studio",
                 "SCL2",
                 "Mon",
                 "1530to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "SDDA",
                 "Wed",
                 "1130to1220",
-                "TR+18",
-                "Teaching Wk2-4,6-13"
+                "TR+18"
             ],
             [
                 "Tut",
                 "SDDA",
                 "Wed",
                 "1130to1220",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ]
         ],
         "10161": [
@@ -2296,48 +2086,42 @@ var a =
                 "SCL2",
                 "Fri",
                 "1330to1420",
-                "LT4",
-                "Teaching Wk1-4,6-13"
+                "LT4"
             ],
             [
                 "Lec/Studio",
                 "SCL2",
                 "Fri",
                 "1330to1420",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Lec/Studio",
                 "SCL2",
                 "Mon",
                 "1530to1620",
-                "LT4",
-                "Teaching Wk1-4,6-13"
+                "LT4"
             ],
             [
                 "Lec/Studio",
                 "SCL2",
                 "Mon",
                 "1530to1620",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ],
             [
                 "Tut",
                 "SDDB",
                 "Mon",
                 "1230to1320",
-                "TR+23",
-                "Teaching Wk2-4,6-13"
+                "TR+23"
             ],
             [
                 "Tut",
                 "SDDB",
                 "Mon",
                 "1230to1320",
-                "ONLINE",
-                "Teaching Wk5"
+                "ONLINE"
             ]
         ]
     }

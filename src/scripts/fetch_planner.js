@@ -69,7 +69,10 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
                 cur.push(line.children[3].children[0].innerHTML)
                 cur.push(line.children[4].children[0].innerHTML)
                 cur.push(line.children[5].children[0].innerHTML)
-                cur.push(line.children[6].children[0].innerHTML.replace("&nbsp;",""))
+                remark = line.children[6].children[0].innerHTML.replace("&nbsp;","")
+                if (remark == "") {
+                    cur.push("Teaching Wk1-13")
+                }
                 in_index.push(cur)
             }
             result[index] = in_index
