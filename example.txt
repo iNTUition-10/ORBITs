@@ -621,22 +621,50 @@ var a =
             ]
         ],
         "00704": [
-            "Tut",
-            "25",
-            "Fri",
-            "1030to1220",
-            "ONLINE",
-            "Teaching Wk5"
+            [
+                "Lec/Studio",
+                "1",
+                "Wed",
+                "0930to1020",
+                "ONLINE",
+                ""
+            ],
+            [
+                "Tut",
+                "25",
+                "Fri",
+                "1030to1220",
+                "TR+31",
+                "Teaching Wk2-4,6-13"
+            ],
+            [
+                "Tut",
+                "25",
+                "Fri",
+                "1030to1220",
+                "ONLINE",
+                "Teaching Wk5"
+            ]
         ]
     },
     "ET5122": {
         "39005": [
-            "Lec/Studio",
-            "LE",
-            "Sat",
-            "1830to1950",
-            "ONLINE",
-            "Teaching Wk10"
+            [
+                "Lec/Studio",
+                "LE",
+                "Sat",
+                "0830to1550",
+                "LT9",
+                "Teaching Wk8,9,11-13"
+            ],
+            [
+                "Lec/Studio",
+                "LE",
+                "Sat",
+                "1830to1950",
+                "ONLINE",
+                "Teaching Wk10"
+            ]
         ]
     },
     "SC1007": {
@@ -2069,12 +2097,46 @@ var a =
             ]
         ],
         "10395": [
-            "Lab",
-            "ECDS1",
-            "Fri",
-            "1030to1220",
-            "SWLAB3",
-            ""
+            [
+                "Lec/Studio",
+                "SCL1",
+                "Tue",
+                "1430to1620",
+                "LKC-LT",
+                "Teaching Wk1-4,6-13"
+            ],
+            [
+                "Lec/Studio",
+                "SCL1",
+                "Tue",
+                "1430to1620",
+                "ONLINE",
+                "Teaching Wk5"
+            ],
+            [
+                "Tut",
+                "ECDS1",
+                "Fri",
+                "0930to1020",
+                "TR+9",
+                "Teaching Wk2-4,6-13"
+            ],
+            [
+                "Tut",
+                "ECDS1",
+                "Fri",
+                "0930to1020",
+                "ONLINE",
+                "Teaching Wk5"
+            ],
+            [
+                "Lab",
+                "ECDS1",
+                "Fri",
+                "1030to1220",
+                "SWLAB3",
+                ""
+            ]
         ]
     },
     "SC2000": {
@@ -2229,12 +2291,54 @@ var a =
             ]
         ],
         "10161": [
-            "Tut",
-            "SDDB",
-            "Mon",
-            "1230to1320",
-            "ONLINE",
-            "Teaching Wk5"
+            [
+                "Lec/Studio",
+                "SCL2",
+                "Fri",
+                "1330to1420",
+                "LT4",
+                "Teaching Wk1-4,6-13"
+            ],
+            [
+                "Lec/Studio",
+                "SCL2",
+                "Fri",
+                "1330to1420",
+                "ONLINE",
+                "Teaching Wk5"
+            ],
+            [
+                "Lec/Studio",
+                "SCL2",
+                "Mon",
+                "1530to1620",
+                "LT4",
+                "Teaching Wk1-4,6-13"
+            ],
+            [
+                "Lec/Studio",
+                "SCL2",
+                "Mon",
+                "1530to1620",
+                "ONLINE",
+                "Teaching Wk5"
+            ],
+            [
+                "Tut",
+                "SDDB",
+                "Mon",
+                "1230to1320",
+                "TR+23",
+                "Teaching Wk2-4,6-13"
+            ],
+            [
+                "Tut",
+                "SDDB",
+                "Mon",
+                "1230to1320",
+                "ONLINE",
+                "Teaching Wk5"
+            ]
         ]
     }
 }

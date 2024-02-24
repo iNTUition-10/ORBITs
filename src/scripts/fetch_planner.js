@@ -72,7 +72,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
                 cur.push(line.children[6].children[0].innerHTML.replace("&nbsp;",""))
                 in_index.push(cur)
             }
-            result[index] = cur
+            result[index] = in_index
             console.log("fetch_planner.js parsed html, sending back to plugin. result: ", result)
             sendResponse({code, index: result})
     }}
