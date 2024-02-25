@@ -1,4 +1,4 @@
-*ORBIT for STARS*
+*ORBIT for STARS* (Orbits)
 
 Optimized Registration Browser-based Intelligent Tool for STARS
 

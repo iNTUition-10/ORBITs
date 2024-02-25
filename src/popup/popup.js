@@ -102,13 +102,15 @@ function parseWeeks(weekStr) {
 }
 
 function sessionsOverlap(session1, session2) {
+    console.log("overlap test session1", session1)
+    console.log("overlap test session2", session2)
     const weekOverlap = session1.Weeks.some(week => session2.Weeks.includes(week));
     if (!weekOverlap) return false;
     if (session1.Day !== session2.Day) return false;
     return !(session1.end <= session2.start || session1.start >= session2.end);
 }
 
-function parseCourseSchedules(data, userPreference) {
+function parseCourseSchedules(data, dayOff, userPreference) {
     const courseSchedules = {};
     data.forEach(course => {
         const courseCode = course.Coursecode;
@@ -124,56 +126,122 @@ function parseCourseSchedules(data, userPreference) {
             }));
             return { Index: choice.Index, Sessions: sessions };
         });
-
+        console.log("CHOICES1", choices)
         // Sort based on user preference
         if (userPreference === '1') { // No early classes
             choices = choices.sort((a, b) => Math.min(...b.Sessions.map(session => session.start)) - Math.min(...a.Sessions.map(session => session.start)));
+            console.log("CHOICES2", choices)
         } else if (userPreference === '2') { // Longer weekends
             choices = choices.sort((a, b) => {
-                const aHasMonOrFri = a.Sessions.some(s => s.Day === 'Mon' || s.Day === 'Fri');
-                const bHasMonOrFri = b.Sessions.some(s => s.Day === 'Mon' || s.Day === 'Fri');
+                const aHasMonAndFri = (a.sessions.some(s => s.Type != "LEC/STUDIO" && s.Day === 'Mon') && a.sessions.some(s => s.Type != "LEC/STUDIO" && s.Day === 'Fri'));
+                const bHasMonAndFri = (b.sessions.some(s => s.Type != "LEC/STUDIO" && s.Day === 'Mon') && a.sessions.some(s => s.Type != "LEC/STUDIO" && s.Day === 'Fri'));
+                if(aHasMonAndFri){
+                    if(bHasMonAndFri){
+                        return 0
+                    }else{
+                        return 1
+                    }
+                }else if(bHasMonAndFri){
+                    return -1
+                }
+                const aHasMonOrFri = a.Sessions.some(s => (s.Type != "LEC/STUDIO" && s.Day === 'Mon') || (s.Type != "LEC/STUDIO" && s.Day === 'Fri'));
+                const bHasMonOrFri = b.Sessions.some(s => (s.Type != "LEC/STUDIO" && s.Day === 'Mon') || (s.Type != "LEC/STUDIO" && s.Day === 'Fri'));
                 return (aHasMonOrFri === bHasMonOrFri) ? 0 : aHasMonOrFri ? 1 : -1;
             });
+        } else if(dayOff){
+            dayOff = ["N", "Mon", "Tue", "Wed", "Thu", "Fri"][parseInt(dayOff)]
+            choices = choices.sort((a, b) => {
+                const aHas = a.Sessions.some(s => s.Type != "LEC/STUDIO" && s.Day === dayOff);
+                const bHas = b.Sessions.some(s => s.Type != "LEC/STUDIO" && s.Day === dayOff);
+                return (aHas === bHas) ? 0 : aHas ? 1 : -1;
+            })
         }
-
         courseSchedules[courseCode] = choices;
     });
     return courseSchedules;
 }
 
-async function findConflictFreeSchedule(courseSchedules, dayOff, userPreference) { // dayOff: 1-5 or -1, userPreference: 0=none, 1=no early classes, 2=longer weekends
-    const updatedCourseSchedules = parseCourseSchedules(courseSchedules, userPreference);
-    const conflictFreeSchedule = {};
-    Object.entries(updatedCourseSchedules).forEach(([courseCode, indexes]) => {
-        indexes.some(indexInfo => {
-            const { Index: index, Sessions: sessions } = indexInfo;
-            let isConflict = false;
-
-            Object.values(conflictFreeSchedule).forEach(({ Sessions: otherSessions }) => {
-                otherSessions.forEach(otherSession => {
-                    sessions.forEach(session => {
-                        if (sessionsOverlap(session, otherSession)) {
-                            isConflict = true;
-                        }
-                    });
-                    if (isConflict) return;
-                });
-                if (isConflict) return;
-            });
-
-            if (!isConflict) {
-                conflictFreeSchedule[courseCode] = { Index: index, Sessions: sessions };
-                return true; // Break the loop once a conflict-free index is found
+function cmpSessions(sessions, cfs){
+    console.log("cmpSessions sessions ", sessions)
+    console.log("cmpSessions cfs ", cfs)
+    for(let k = 0; k < sessions.length;k++){
+        session = sessions[k]
+        for(let i = 0; i < Object.entries(cfs).length; i++){
+            for(let j = 0; j < Object.entries(cfs)[i][1].sessions.length;j++){
+                if(sessionsOverlap(session, Object.entries(cfs)[i][1].sessions[j])){
+                    return false
+                }
             }
-            return false; // Continue the loop
-        });
-    });
-
-    if (Object.keys(conflictFreeSchedule).length === Object.keys(updatedCourseSchedules).length) {
-        return outputConflictFreeSchedule(conflictFreeSchedule);
-    } else {
-        return false
+        }
     }
+    return true
+}
+
+function recursiveFind(conflictFreeSchedule, remain, outermost = false) {
+    if (Object.keys(remain).length === 0) {
+        return conflictFreeSchedule; 
+    }
+
+    const [current_code, current_index_array] = Object.entries(remain)[0];
+    const r_remain = {...remain}; 
+    delete r_remain[current_code]; 
+
+    for (let i = 0; i < current_index_array.length; i++) {
+        const sessions = current_index_array[i];
+        if (!cmpSessions(sessions.Sessions, conflictFreeSchedule)) {
+            continue;
+        }
+        const newConflictFreeSchedule = {...conflictFreeSchedule}; 
+        newConflictFreeSchedule[current_code] = { index: sessions.Index, sessions: sessions.Sessions };
+
+        if (Object.keys(r_remain).length === 0) {
+            return newConflictFreeSchedule; 
+        } else {
+            const result = recursiveFind(newConflictFreeSchedule, r_remain); 
+            if (result) return result; 
+        }
+    }
+
+    if (outermost) {
+        return false; 
+    }
+}
+
+async function findConflictFreeSchedule(courseSchedules, dayOff, userPreference) { // dayOff: 1-5 or 0, userPreference: 0=none, 1=no early classes, 2=longer weekends
+    const updatedCourseSchedules = parseCourseSchedules(courseSchedules, dayOff, userPreference);
+    console.log(updatedCourseSchedules)
+    const conflictFreeSchedule = {}
+    r = recursiveFind(conflictFreeSchedule, updatedCourseSchedules, true)
+
+    // Object.entries(updatedCourseSchedules).forEach(([courseCode, indexes]) => {
+    //     indexes.some(indexInfo => {
+    //         const { Index: index, Sessions: sessions } = indexInfo;
+    //         let isConflict = false;
+
+    //         Object.values(conflictFreeSchedule).forEach(({ Sessions: otherSessions }) => {
+    //             otherSessions.forEach(otherSession => {
+    //                 sessions.forEach(session => {
+    //                     if (sessionsOverlap(session, otherSession)) {
+    //                         isConflict = true;
+    //                     }
+    //                 });
+    //                 if (isConflict) return;
+    //             });
+    //             if (isConflict) return;
+    //         });
+
+    //         if (!isConflict) {
+    //             conflictFreeSchedule[courseCode] = { Index: index, Sessions: sessions };
+    //             return true; // Break the loop once a conflict-free index is found
+    //         }
+    //         return false; // Continue the loop
+    //     });
+    // });
+
+    if (!r) {
+        console.log("popup.js conflict-free schedule not found")
+    }
+    return r
 }
 
 function formatWeeks(weeksList) {
@@ -200,14 +268,4 @@ function formatWeeks(weeksList) {
     }
 
     return formattedWeeks.join(',');
-}
-
-function outputConflictFreeSchedule(conflictFreeSchedule) {
-    const outputData = Object.entries(conflictFreeSchedule).map(([courseCode, info]) => {
-        return {
-            Coursecode: courseCode,
-            Index: info.Index,
-        };
-    });
-    return outputData
 }

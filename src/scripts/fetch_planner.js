@@ -33,10 +33,10 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
         chrome.storage.local.get(['optimized']).then(optimized => {
             optimized = optimized.optimized
             console.log("optimized schedule from storage", optimized)
-            for(var i = 0; i<optimized.length; i++){
-                row = optimized[i]
-                code = row.Coursecode
-                index = row.Index
+            for(var i = 0; i<Object.entries(optimized).length; i++){
+                code = Object.entries(optimized)[i][0]
+                index = Object.entries(optimized)[i][1].index
+                console.log("fetch_planner.js replacing ", code, " index ", index)
                 if(document.querySelector('[value="'+index+'"]').parentNode.querySelector('[selected="selected"]'))
                 document.querySelector('[value="'+index+'"]').parentNode.querySelector('[selected="selected"]').removeAttribute("selected")
                 document.querySelector('[value="'+index+'"]').setAttribute("selected", "selected")

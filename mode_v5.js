@@ -42,6 +42,7 @@ function parseCourseSchedules(data, userPreference) {
         });
 
         // Sort based on user preference
+        console.log("Choices:"  + choices)
         if (userPreference === '1') { // No early classes
             choices = choices.sort((a, b) => Math.min(...b.Sessions.map(session => session.start)) - Math.min(...a.Sessions.map(session => session.start)));
         } else if (userPreference === '2') { // Longer weekends
