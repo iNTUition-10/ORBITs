@@ -98,6 +98,10 @@ h3 {
     transition-duration: .1s;
   }
 
+  .button-36:disabled {
+    cursor: progress;
+  }
+
   @media (min-width: 768px) {
     .button-36 {
       padding: 0 2.6rem;

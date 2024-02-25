@@ -12,10 +12,10 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
         <form action="AUS_STARS_PLANNER.course_info" method="post" id="xyz">
         <input type="hidden" name="acad" value="2023">
         <input type="hidden" name="semester" value="2">
-        <input type="hidden" name="p1" value="AB37DBA772BECF60DE9BF3B0A3EE498FC14551AB26B94DF271172BCBF30C27E8925F11D608644E05D0FA96CDDD34DA86">
-        <input type="hidden" name="p2" value="1DA9DAC0A213C54A0A4CB7A0DC3273A6BF8FA5D1947F42C5258052553BC170913FB2273B60AEF8C401D2BAD119DE2B4A">
-        <input type="hidden" name="FullPart" value="F">
-        <input type="hidden" name="matric" value="U2222867A">
+        <input type="hidden" name="p1" value="xx">
+        <input type="hidden" name="p2" value="xx">
+        <input type="hidden" name="FullPart" value="xx">
+        <input type="hidden" name="matric" value="xx">
         <input type="hidden" name="r_subj_code" value="">
         </form>
         */

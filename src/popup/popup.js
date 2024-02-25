@@ -28,6 +28,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 document.getElementById("home-to-select").addEventListener("click", () => {toPage('select')});
 document.getElementById("select-to-apply").addEventListener("click", () => {
     console.log("popup.js generateSchedule")
+    document.getElementById('select-to-apply').disabled = true
     chrome.storage.session.get(['fetched_courses']).then(data => {
         console.log("popup.js get data from session storage", data)
         console.log("popup.js get dayOff and pref from input", document.getElementById('dayOff').value, document.getElementById('pref').value)
@@ -39,6 +40,7 @@ document.getElementById("select-to-apply").addEventListener("click", () => {
             }
             console.log("popup.js conflict free schedule found, save to storage, ", response)
             chrome.storage.local.set({'optimized': response}, () => {
+                document.getElementById('select-to-apply').disabled = false
                 toPage('applydiv')
             })
         })
@@ -46,16 +48,19 @@ document.getElementById("select-to-apply").addEventListener("click", () => {
 });
 
 document.getElementById('apply').addEventListener('click', function() {
+    document.getElementById('apply').disabled = true
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
         chrome.tabs.sendMessage(tabs[0].id, {action: "APPLY"}, (data) => {
             console.log("popup.js APPLY_SCHEDULE received response")
             console.log(data)
+            document.getElementById('apply').disabled = false
             toPage('home')
         })
     })
 })
 
 document.getElementById('fetch').addEventListener('click', function() {
+    document.getElementById('fetch').disabled = true
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
         chrome.tabs.sendMessage(tabs[0].id, {action: "GET_FORM0"}, (data) => {
             form = data.data
@@ -74,6 +79,7 @@ document.getElementById('fetch').addEventListener('click', function() {
                     console.log("popup.js FETCH_COURSES received response")
                     console.log(response)
                     console.log("popup.js change to select page")
+                    document.getElementById('fetch').disabled = false
                     toPage('select')
                 })
             })
@@ -128,13 +134,13 @@ function parseCourseSchedules(data, dayOff, userPreference) {
         });
         console.log("CHOICES1", choices)
         // Sort based on user preference
-        if (userPreference === '1') { // No early classes
+        if (userPreference == '1') { // No early classes
             choices = choices.sort((a, b) => Math.min(...b.Sessions.map(session => session.start)) - Math.min(...a.Sessions.map(session => session.start)));
             console.log("CHOICES2", choices)
-        } else if (userPreference === '2') { // Longer weekends
+        } else if (userPreference == '2') { // Longer weekends
             choices = choices.sort((a, b) => {
-                const aHasMonAndFri = (a.sessions.some(s => s.Type != "LEC/STUDIO" && s.Day === 'Mon') && a.sessions.some(s => s.Type != "LEC/STUDIO" && s.Day === 'Fri'));
-                const bHasMonAndFri = (b.sessions.some(s => s.Type != "LEC/STUDIO" && s.Day === 'Mon') && a.sessions.some(s => s.Type != "LEC/STUDIO" && s.Day === 'Fri'));
+                const aHasMonAndFri = (a.sessions.some(s => s.Type != "Lec/Studio" && s.Day === 'Mon') && a.sessions.some(s => s.Type != "Lec/Studio" && s.Day === 'Fri'));
+                const bHasMonAndFri = (b.sessions.some(s => s.Type != "Lec/Studio" && s.Day === 'Mon') && a.sessions.some(s => s.Type != "Lec/Studio" && s.Day === 'Fri'));
                 if(aHasMonAndFri){
                     if(bHasMonAndFri){
                         return 0
@@ -144,16 +150,16 @@ function parseCourseSchedules(data, dayOff, userPreference) {
                 }else if(bHasMonAndFri){
                     return -1
                 }
-                const aHasMonOrFri = a.Sessions.some(s => (s.Type != "LEC/STUDIO" && s.Day === 'Mon') || (s.Type != "LEC/STUDIO" && s.Day === 'Fri'));
-                const bHasMonOrFri = b.Sessions.some(s => (s.Type != "LEC/STUDIO" && s.Day === 'Mon') || (s.Type != "LEC/STUDIO" && s.Day === 'Fri'));
+                const aHasMonOrFri = a.Sessions.some(s => (s.Type.toUpperCase() != "LEC/STUDIO" && s.Day === 'Mon') || (s.Type.toUpperCase() != "LEC/STUDIO" && s.Day === 'Fri'));
+                const bHasMonOrFri = b.Sessions.some(s => (s.Type.toUpperCase() != "LEC/STUDIO" && s.Day === 'Mon') || (s.Type.toUpperCase() != "LEC/STUDIO" && s.Day === 'Fri'));
                 return (aHasMonOrFri === bHasMonOrFri) ? 0 : aHasMonOrFri ? 1 : -1;
             });
         } else if(dayOff){
-            dayOff = ["N", "Mon", "Tue", "Wed", "Thu", "Fri"][parseInt(dayOff)]
-            choices = choices.sort((a, b) => {
-                const aHas = a.Sessions.some(s => s.Type != "LEC/STUDIO" && s.Day === dayOff);
-                const bHas = b.Sessions.some(s => s.Type != "LEC/STUDIO" && s.Day === dayOff);
-                return (aHas === bHas) ? 0 : aHas ? 1 : -1;
+            console.log("dayOff", dayOff)
+            choices = choices.sort((c, b) => {
+                const aHas = c.Sessions.some(s => ((s.Type.toUpperCase() != "LEC/STUDIO") && (s.Day == dayOff)));
+                const bHas = b.Sessions.some(s => ((s.Type.toUpperCase() != "LEC/STUDIO") && (s.Day == dayOff)));
+                return (aHas == bHas) ? 0 : aHas ? 1 : -1;
             })
         }
         courseSchedules[courseCode] = choices;
