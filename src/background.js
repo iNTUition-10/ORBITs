@@ -34,15 +34,11 @@
  *                别人笑我忒疯癫，我笑自己命太贱；  
  */
 
-// 扩展程序的 Service Worker 在后台监控浏览器事件。
-// Service Worker 是特殊的 JavaScript 环境，用于处理事件，并会在不需要时终止。
-
 // 仅监听STARS网站
 const stars_url = 'https://wish.wis.ntu.edu.sg/pls/webexe/AUS_STARS_PLANNER.planner'
 const info_url = 'https://wish.wis.ntu.edu.sg/pls/webexe/AUS_STARS_PLANNER.course_info'
 
 
-// onClicked: 点击操作图标时触发。如果操作具有弹出式窗口，则不会触发此事件。
 chrome.action.onClicked.addListener(async (tab) => {
     if (tab.url.startsWith(stars_url)) {
         const prevState = await chrome.action.getBadgeText({tabId: tab.id})
@@ -68,7 +64,6 @@ chrome.action.onClicked.addListener(async (tab) => {
     }
 })
 
-// 此函数用于获取课程时间信息，后台请求防止出现CORS跨域问题
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if(request.action == "FETCH_COURSES") {
         console.log("background.js received FETCH_COURSE request", request)
