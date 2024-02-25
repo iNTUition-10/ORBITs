@@ -135,8 +135,3 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     }
 })
 
-// runtime.onInstalled()。
-// 此方法可让扩展程序在安装时设置初始状态或完成一些任务。
-chrome.runtime.onInstalled.addListener(() => {
-    chrome.action.setBadgeText({text: 'OFF'}) // 将扩展程序的图标上的徽章设置为“OFF”
-})
