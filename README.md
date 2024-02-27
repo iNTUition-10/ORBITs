@@ -1,6 +1,8 @@
 ## ✨Inspiration
 University Students often messed up for course registration, especially with NTU's hard-to-use STARS system, with the course planning info hard to find and the time clash frequently occur. Personal preference cannot met, that’s where we come in. 
 
+[![](https://img.youtube.com/vi/aWgVyqE-o-4/0.jpg)](https://www.youtube.com/watch?v=aWgVyqE-o-4)
+
 ## 💡What it does
 We provide a user-friendly browser plugin that automatically help student allocate their preferred course slots, without trying all the timetable clashes!
 

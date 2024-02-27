@@ -139,8 +139,8 @@ function parseCourseSchedules(data, dayOff, userPreference) {
             console.log("CHOICES2", choices)
         } else if (userPreference == '2') { // Longer weekends
             choices = choices.sort((a, b) => {
-                const aHasMonAndFri = (a.sessions.some(s => s.Type != "Lec/Studio" && s.Day === 'Mon') && a.sessions.some(s => s.Type != "Lec/Studio" && s.Day === 'Fri'));
-                const bHasMonAndFri = (b.sessions.some(s => s.Type != "Lec/Studio" && s.Day === 'Mon') && a.sessions.some(s => s.Type != "Lec/Studio" && s.Day === 'Fri'));
+                const aHasMonAndFri = (a.Sessions.some(s => s.Type != "Lec/Studio" && s.Day === 'Mon') && a.Sessions.some(s => s.Type != "Lec/Studio" && s.Day === 'Fri'));
+                const bHasMonAndFri = (b.Sessions.some(s => s.Type != "Lec/Studio" && s.Day === 'Mon') && a.Sessions.some(s => s.Type != "Lec/Studio" && s.Day === 'Fri'));
                 if(aHasMonAndFri){
                     if(bHasMonAndFri){
                         return 0
